@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\MoveShipmentsOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        moveShipmentsResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getMoveShipmentsResponse
+                setter: setMoveShipmentsResponse
+            serialized_name: moveShipmentsResponse
+            type: TomaszKusy\En\MoveShipmentsResponse

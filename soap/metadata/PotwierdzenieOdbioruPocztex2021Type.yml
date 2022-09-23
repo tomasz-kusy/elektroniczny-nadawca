@@ -1,0 +1,18 @@
+TomaszKusy\En\PotwierdzenieOdbioruPocztex2021Type:
+    properties:
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            type: int
+        sposobPotwierdzeniaOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobPotwierdzeniaOdbioru
+            accessor:
+                getter: getSposobPotwierdzeniaOdbioru
+                setter: setSposobPotwierdzeniaOdbioru
+            type: string

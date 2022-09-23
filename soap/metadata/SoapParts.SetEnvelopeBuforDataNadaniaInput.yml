@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\SetEnvelopeBuforDataNadaniaInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        setEnvelopeBuforDataNadania:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getSetEnvelopeBuforDataNadania
+                setter: setSetEnvelopeBuforDataNadania
+            serialized_name: setEnvelopeBuforDataNadania
+            type: TomaszKusy\En\SetEnvelopeBuforDataNadania

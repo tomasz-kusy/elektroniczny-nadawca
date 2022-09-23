@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetPaczkaKorzysciInfoInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getPaczkaKorzysciInfo:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetPaczkaKorzysciInfo
+                setter: setGetPaczkaKorzysciInfo
+            serialized_name: getPaczkaKorzysciInfo
+            type: TomaszKusy\En\GetPaczkaKorzysciInfo

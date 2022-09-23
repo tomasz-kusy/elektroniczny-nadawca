@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\CancelReklamacjaOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        cancelReklamacjaResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getCancelReklamacjaResponse
+                setter: setCancelReklamacjaResponse
+            serialized_name: cancelReklamacjaResponse
+            type: TomaszKusy\En\CancelReklamacjaResponse

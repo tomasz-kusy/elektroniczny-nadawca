@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetFirmowaPocztaBookInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getFirmowaPocztaBook:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetFirmowaPocztaBook
+                setter: setGetFirmowaPocztaBook
+            serialized_name: getFirmowaPocztaBook
+            type: TomaszKusy\En\GetFirmowaPocztaBook

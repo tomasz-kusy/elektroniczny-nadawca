@@ -1,0 +1,27 @@
+TomaszKusy\En\ZwrotDokumentowType:
+    properties:
+        odleglosc:
+            expose: true
+            access_type: public_method
+            serialized_name: odleglosc
+            accessor:
+                getter: getOdleglosc
+                setter: setOdleglosc
+            xml_attribute: true
+            type: int
+        rodzajPocztex:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzajPocztex
+            accessor:
+                getter: getRodzajPocztex
+                setter: setRodzajPocztex
+            type: string
+        rodzajList:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzajList
+            accessor:
+                getter: getRodzajList
+                setter: setRodzajList
+            type: TomaszKusy\En\RodzajListType

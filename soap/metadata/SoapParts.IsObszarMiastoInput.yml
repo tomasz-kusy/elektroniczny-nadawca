@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\IsObszarMiastoInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        isObszarMiasto:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getIsObszarMiasto
+                setter: setIsObszarMiasto
+            serialized_name: isObszarMiasto
+            type: TomaszKusy\En\IsObszarMiasto

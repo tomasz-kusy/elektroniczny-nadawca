@@ -1,0 +1,47 @@
+TomaszKusy\En\PobranieType:
+    properties:
+        sposobPobrania:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobPobrania
+            accessor:
+                getter: getSposobPobrania
+                setter: setSposobPobrania
+            xml_attribute: true
+            type: string
+        kwotaPobrania:
+            expose: true
+            access_type: public_method
+            serialized_name: kwotaPobrania
+            accessor:
+                getter: getKwotaPobrania
+                setter: setKwotaPobrania
+            xml_attribute: true
+            type: int
+        nrb:
+            expose: true
+            access_type: public_method
+            serialized_name: nrb
+            accessor:
+                getter: getNrb
+                setter: setNrb
+            xml_attribute: true
+            type: string
+        tytulem:
+            expose: true
+            access_type: public_method
+            serialized_name: tytulem
+            accessor:
+                getter: getTytulem
+                setter: setTytulem
+            xml_attribute: true
+            type: string
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            xml_attribute: true
+            type: bool

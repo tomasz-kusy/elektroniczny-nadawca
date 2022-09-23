@@ -1,0 +1,50 @@
+TomaszKusy\En\DaneSentType:
+    properties:
+        numer:
+            expose: true
+            access_type: public_method
+            serialized_name: numer
+            accessor:
+                getter: getNumer
+                setter: setNumer
+            type: string
+        kluczPrzewoznika:
+            expose: true
+            access_type: public_method
+            serialized_name: kluczPrzewoznika
+            accessor:
+                getter: getKluczPrzewoznika
+                setter: setKluczPrzewoznika
+            type: string
+        kodCN:
+            expose: true
+            access_type: public_method
+            serialized_name: kodCN
+            accessor:
+                getter: getKodCN
+                setter: setKodCN
+            type: string
+        kodPKWiU:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPKWiU
+            accessor:
+                getter: getKodPKWiU
+                setter: setKodPKWiU
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            type: float
+        proceduraAwaryjna:
+            expose: true
+            access_type: public_method
+            serialized_name: proceduraAwaryjna
+            accessor:
+                getter: getProceduraAwaryjna
+                setter: setProceduraAwaryjna
+            type: bool

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\UpdateAccountOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        updateAccountResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getUpdateAccountResponse
+                setter: setUpdateAccountResponse
+            serialized_name: updateAccountResponse
+            type: TomaszKusy\En\UpdateAccountResponse

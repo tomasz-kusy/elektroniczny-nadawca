@@ -1,0 +1,62 @@
+TomaszKusy\En\PrzesylkaRejestrowanaType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        sygnatura:
+            expose: true
+            access_type: public_method
+            serialized_name: sygnatura
+            accessor:
+                getter: getSygnatura
+                setter: setSygnatura
+            xml_attribute: true
+            type: string
+        terminSprawy:
+            expose: true
+            access_type: public_method
+            serialized_name: terminSprawy
+            accessor:
+                getter: getTerminSprawy
+                setter: setTerminSprawy
+            xml_attribute: true
+            type: string
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            xml_attribute: true
+            type: string
+        adres:
+            expose: true
+            access_type: public_method
+            serialized_name: adres
+            accessor:
+                getter: getAdres
+                setter: setAdres
+            type: TomaszKusy\En\AdresType
+        nadawca:
+            expose: true
+            access_type: public_method
+            serialized_name: nadawca
+            accessor:
+                getter: getNadawca
+                setter: setNadawca
+            type: TomaszKusy\En\AdresType
+        relatedToAllegro:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedToAllegro
+            accessor:
+                getter: getRelatedToAllegro
+                setter: setRelatedToAllegro
+            type: TomaszKusy\En\RelatedToAllegroType

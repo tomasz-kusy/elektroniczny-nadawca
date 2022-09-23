@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetAddresLabelByGuidOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getAddresLabelByGuidResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetAddresLabelByGuidResponse
+                setter: setGetAddresLabelByGuidResponse
+            serialized_name: getAddresLabelByGuidResponse
+            type: TomaszKusy\En\GetAddresLabelByGuidResponse

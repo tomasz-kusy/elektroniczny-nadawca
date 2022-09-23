@@ -1,0 +1,10 @@
+TomaszKusy\En\GetZapowiedziFaktur\GetZapowiedziFakturAType:
+    properties:
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            accessor:
+                getter: getData
+                setter: setData
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

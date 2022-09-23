@@ -1,0 +1,56 @@
+TomaszKusy\En\SzczegolyDeklaracjiCelnejType:
+    properties:
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            xml_attribute: true
+            type: string
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            xml_attribute: true
+            type: float
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        numerTaryfowy:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTaryfowy
+            accessor:
+                getter: getNumerTaryfowy
+                setter: setNumerTaryfowy
+            xml_attribute: true
+            type: string
+        krajPochodzenia:
+            expose: true
+            access_type: public_method
+            serialized_name: krajPochodzenia
+            accessor:
+                getter: getKrajPochodzenia
+                setter: setKrajPochodzenia
+            xml_attribute: true
+            type: string

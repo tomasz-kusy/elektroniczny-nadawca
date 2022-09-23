@@ -1,0 +1,10 @@
+TomaszKusy\En\GetAddressLabel\GetAddressLabelAType:
+    properties:
+        idEnvelope:
+            expose: true
+            access_type: public_method
+            serialized_name: idEnvelope
+            accessor:
+                getter: getIdEnvelope
+                setter: setIdEnvelope
+            type: int

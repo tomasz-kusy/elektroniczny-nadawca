@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetListaZgodEZwrotowOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getListaZgodEZwrotowResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetListaZgodEZwrotowResponse
+                setter: setGetListaZgodEZwrotowResponse
+            serialized_name: getListaZgodEZwrotowResponse
+            type: TomaszKusy\En\GetListaZgodEZwrotowResponse

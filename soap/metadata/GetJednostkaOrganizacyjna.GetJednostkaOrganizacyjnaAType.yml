@@ -1,0 +1,10 @@
+TomaszKusy\En\GetJednostkaOrganizacyjna\GetJednostkaOrganizacyjnaAType:
+    properties:
+        jednostka:
+            expose: true
+            access_type: public_method
+            serialized_name: jednostka
+            accessor:
+                getter: getJednostka
+                setter: setJednostka
+            type: TomaszKusy\En\JednostkaOrganizacyjnaType

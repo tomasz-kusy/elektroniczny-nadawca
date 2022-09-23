@@ -1,0 +1,67 @@
+TomaszKusy\En\PrzesylkaShortType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        dataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNadania
+            accessor:
+                getter: getDataNadania
+                setter: setDataNadania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        razem:
+            expose: true
+            access_type: public_method
+            serialized_name: razem
+            accessor:
+                getter: getRazem
+                setter: setRazem
+            xml_attribute: true
+            type: int
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            xml_attribute: true
+            type: int
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        czynnosciUpustowe:
+            expose: true
+            access_type: public_method
+            serialized_name: czynnosciUpustowe
+            accessor:
+                getter: getCzynnosciUpustowe
+                setter: setCzynnosciUpustowe
+            xml_list:
+                inline: true
+                entry_name: czynnosciUpustowe
+            type: array<string>

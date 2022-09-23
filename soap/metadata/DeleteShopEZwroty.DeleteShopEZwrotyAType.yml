@@ -1,0 +1,10 @@
+TomaszKusy\En\DeleteShopEZwroty\DeleteShopEZwrotyAType:
+    properties:
+        idShop:
+            expose: true
+            access_type: public_method
+            serialized_name: idShop
+            accessor:
+                getter: getIdShop
+                setter: setIdShop
+            type: int

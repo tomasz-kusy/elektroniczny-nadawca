@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\DeleteShopEZwrotyOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        deleteShopEZwrotyResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getDeleteShopEZwrotyResponse
+                setter: setDeleteShopEZwrotyResponse
+            serialized_name: deleteShopEZwrotyResponse
+            type: TomaszKusy\En\DeleteShopEZwrotyResponse

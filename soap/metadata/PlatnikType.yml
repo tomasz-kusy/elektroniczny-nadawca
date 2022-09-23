@@ -1,0 +1,18 @@
+TomaszKusy\En\PlatnikType:
+    properties:
+        uiszczaOplate:
+            expose: true
+            access_type: public_method
+            serialized_name: uiszczaOplate
+            accessor:
+                getter: getUiszczaOplate
+                setter: setUiszczaOplate
+            type: string
+        adresPlatnika:
+            expose: true
+            access_type: public_method
+            serialized_name: adresPlatnika
+            accessor:
+                getter: getAdresPlatnika
+                setter: setAdresPlatnika
+            type: TomaszKusy\En\AdresType

@@ -1,0 +1,29 @@
+TomaszKusy\En\ProfilType:
+    properties:
+        idProfil:
+            expose: true
+            access_type: public_method
+            serialized_name: idProfil
+            accessor:
+                getter: getIdProfil
+                setter: setIdProfil
+            xml_attribute: true
+            type: int
+        nazwaSkrocona:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaSkrocona
+            accessor:
+                getter: getNazwaSkrocona
+                setter: setNazwaSkrocona
+            xml_attribute: true
+            type: string
+        fax:
+            expose: true
+            access_type: public_method
+            serialized_name: fax
+            accessor:
+                getter: getFax
+                setter: setFax
+            xml_attribute: true
+            type: string

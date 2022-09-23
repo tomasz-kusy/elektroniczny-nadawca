@@ -1,0 +1,148 @@
+TomaszKusy\En\DeklaracjaCelnaType:
+    properties:
+        podarunek:
+            expose: true
+            access_type: public_method
+            serialized_name: podarunek
+            accessor:
+                getter: getPodarunek
+                setter: setPodarunek
+            xml_attribute: true
+            type: bool
+        dokument:
+            expose: true
+            access_type: public_method
+            serialized_name: dokument
+            accessor:
+                getter: getDokument
+                setter: setDokument
+            xml_attribute: true
+            type: bool
+        probkaHandlowa:
+            expose: true
+            access_type: public_method
+            serialized_name: probkaHandlowa
+            accessor:
+                getter: getProbkaHandlowa
+                setter: setProbkaHandlowa
+            xml_attribute: true
+            type: bool
+        zwrotTowaru:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotTowaru
+            accessor:
+                getter: getZwrotTowaru
+                setter: setZwrotTowaru
+            xml_attribute: true
+            type: bool
+        towary:
+            expose: true
+            access_type: public_method
+            serialized_name: towary
+            accessor:
+                getter: getTowary
+                setter: setTowary
+            xml_attribute: true
+            type: bool
+        inny:
+            expose: true
+            access_type: public_method
+            serialized_name: inny
+            accessor:
+                getter: getInny
+                setter: setInny
+            xml_attribute: true
+            type: bool
+        wyjasnienie:
+            expose: true
+            access_type: public_method
+            serialized_name: wyjasnienie
+            accessor:
+                getter: getWyjasnienie
+                setter: setWyjasnienie
+            xml_attribute: true
+            type: string
+        oplatyPocztowe:
+            expose: true
+            access_type: public_method
+            serialized_name: oplatyPocztowe
+            accessor:
+                getter: getOplatyPocztowe
+                setter: setOplatyPocztowe
+            xml_attribute: true
+            type: string
+        uwagi:
+            expose: true
+            access_type: public_method
+            serialized_name: uwagi
+            accessor:
+                getter: getUwagi
+                setter: setUwagi
+            xml_attribute: true
+            type: string
+        licencja:
+            expose: true
+            access_type: public_method
+            serialized_name: licencja
+            accessor:
+                getter: getLicencja
+                setter: setLicencja
+            xml_attribute: true
+            type: string
+        swiadectwo:
+            expose: true
+            access_type: public_method
+            serialized_name: swiadectwo
+            accessor:
+                getter: getSwiadectwo
+                setter: setSwiadectwo
+            xml_attribute: true
+            type: string
+        faktura:
+            expose: true
+            access_type: public_method
+            serialized_name: faktura
+            accessor:
+                getter: getFaktura
+                setter: setFaktura
+            xml_attribute: true
+            type: string
+        numerReferencyjnyImportera:
+            expose: true
+            access_type: public_method
+            serialized_name: numerReferencyjnyImportera
+            accessor:
+                getter: getNumerReferencyjnyImportera
+                setter: setNumerReferencyjnyImportera
+            xml_attribute: true
+            type: string
+        numerTelefonuImportera:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTelefonuImportera
+            accessor:
+                getter: getNumerTelefonuImportera
+                setter: setNumerTelefonuImportera
+            xml_attribute: true
+            type: string
+        waluta:
+            expose: true
+            access_type: public_method
+            serialized_name: waluta
+            accessor:
+                getter: getWaluta
+                setter: setWaluta
+            xml_attribute: true
+            type: string
+        szczegoly:
+            expose: true
+            access_type: public_method
+            serialized_name: szczegoly
+            accessor:
+                getter: getSzczegoly
+                setter: setSzczegoly
+            xml_list:
+                inline: true
+                entry_name: szczegoly
+            type: array<TomaszKusy\En\SzczegolyDeklaracjiCelnejType>

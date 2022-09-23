@@ -1,0 +1,65 @@
+TomaszKusy\En\PaczkaPocztowaPLUSType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        iloscPotwierdzenOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPotwierdzenOdbioru
+            accessor:
+                getter: getIloscPotwierdzenOdbioru
+                setter: setIloscPotwierdzenOdbioru
+            xml_attribute: true
+            type: int
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            xml_attribute: true
+            type: string
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        zwrotDoslanie:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDoslanie
+            accessor:
+                getter: getZwrotDoslanie
+                setter: setZwrotDoslanie
+            xml_attribute: true
+            type: bool

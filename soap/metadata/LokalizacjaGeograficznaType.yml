@@ -1,0 +1,18 @@
+TomaszKusy\En\LokalizacjaGeograficznaType:
+    properties:
+        dlugosc:
+            expose: true
+            access_type: public_method
+            serialized_name: dlugosc
+            accessor:
+                getter: getDlugosc
+                setter: setDlugosc
+            type: TomaszKusy\En\WspolrzednaGeograficznaType
+        szerokosc:
+            expose: true
+            access_type: public_method
+            serialized_name: szerokosc
+            accessor:
+                getter: getSzerokosc
+                setter: setSzerokosc
+            type: TomaszKusy\En\WspolrzednaGeograficznaType

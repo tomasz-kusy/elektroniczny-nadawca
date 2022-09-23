@@ -1,0 +1,74 @@
+TomaszKusy\En\SubPocztex2021Type:
+    properties:
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            type: bool
+        ponadgabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: ponadgabaryt
+            accessor:
+                getter: getPonadgabaryt
+                setter: setPonadgabaryt
+            type: bool
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            type: string

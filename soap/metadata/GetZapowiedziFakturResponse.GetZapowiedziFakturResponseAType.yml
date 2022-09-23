@@ -1,0 +1,13 @@
+TomaszKusy\En\GetZapowiedziFakturResponse\GetZapowiedziFakturResponseAType:
+    properties:
+        zapowiedzFakturyZipFile:
+            expose: true
+            access_type: public_method
+            serialized_name: zapowiedzFakturyZipFile
+            accessor:
+                getter: getZapowiedzFakturyZipFile
+                setter: setZapowiedzFakturyZipFile
+            xml_list:
+                inline: true
+                entry_name: zapowiedzFakturyZipFile
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>

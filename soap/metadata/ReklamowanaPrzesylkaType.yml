@@ -1,0 +1,72 @@
+TomaszKusy\En\ReklamowanaPrzesylkaType:
+    properties:
+        dataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNadania
+            accessor:
+                getter: getDataNadania
+                setter: setDataNadania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        urzadNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadNadania
+            accessor:
+                getter: getUrzadNadania
+                setter: setUrzadNadania
+            xml_attribute: true
+            type: int
+        powodReklamacjiOpis:
+            expose: true
+            access_type: public_method
+            serialized_name: powodReklamacjiOpis
+            accessor:
+                getter: getPowodReklamacjiOpis
+                setter: setPowodReklamacjiOpis
+            xml_attribute: true
+            type: string
+        odszkodowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: odszkodowanie
+            accessor:
+                getter: getOdszkodowanie
+                setter: setOdszkodowanie
+            xml_attribute: true
+            type: int
+        oplata:
+            expose: true
+            access_type: public_method
+            serialized_name: oplata
+            accessor:
+                getter: getOplata
+                setter: setOplata
+            xml_attribute: true
+            type: int
+        oczekiwaneOdszkodowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwaneOdszkodowanie
+            accessor:
+                getter: getOczekiwaneOdszkodowanie
+                setter: setOczekiwaneOdszkodowanie
+            xml_attribute: true
+            type: int
+        przesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: przesylka
+            accessor:
+                getter: getPrzesylka
+                setter: setPrzesylka
+            type: TomaszKusy\En\PrzesylkaType
+        powodReklamacji:
+            expose: true
+            access_type: public_method
+            serialized_name: powodReklamacji
+            accessor:
+                getter: getPowodReklamacji
+                setter: setPowodReklamacji
+            type: TomaszKusy\En\PowodReklamacjiType

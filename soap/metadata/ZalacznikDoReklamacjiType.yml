@@ -1,0 +1,26 @@
+TomaszKusy\En\ZalacznikDoReklamacjiType:
+    properties:
+        fileContent:
+            expose: true
+            access_type: public_method
+            serialized_name: fileContent
+            accessor:
+                getter: getFileContent
+                setter: setFileContent
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
+        fileName:
+            expose: true
+            access_type: public_method
+            serialized_name: fileName
+            accessor:
+                getter: getFileName
+                setter: setFileName
+            type: string
+        fileDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: fileDesc
+            accessor:
+                getter: getFileDesc
+                setter: setFileDesc
+            type: string

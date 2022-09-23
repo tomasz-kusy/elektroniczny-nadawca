@@ -1,0 +1,37 @@
+TomaszKusy\En\GetPaczkaKorzysciInfoResponse\GetPaczkaKorzysciInfoResponseAType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            type: int
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: TomaszKusy\En\InfoPaczkaKorzysciType
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            accessor:
+                getter: getError
+                setter: setError
+            xml_list:
+                inline: true
+                entry_name: error
+            type: array<TomaszKusy\En\ErrorType>

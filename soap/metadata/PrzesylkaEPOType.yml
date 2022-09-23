@@ -1,0 +1,53 @@
+TomaszKusy\En\PrzesylkaEPOType:
+    properties:
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        statusEPO:
+            expose: true
+            access_type: public_method
+            serialized_name: statusEPO
+            accessor:
+                getter: getStatusEPO
+                setter: setStatusEPO
+            xml_attribute: true
+            type: string
+        ePOInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: EPOInfo
+            accessor:
+                getter: getEPOInfo
+                setter: setEPOInfo
+            type: TomaszKusy\En\EPOInfoType
+        biometricSignatureContent:
+            expose: true
+            access_type: public_method
+            serialized_name: biometricSignatureContent
+            accessor:
+                getter: getBiometricSignatureContent
+                setter: setBiometricSignatureContent
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: int

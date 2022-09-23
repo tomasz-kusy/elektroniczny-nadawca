@@ -1,0 +1,26 @@
+TomaszKusy\En\ProduktInKartaType:
+    properties:
+        symbolIWD:
+            expose: true
+            access_type: public_method
+            serialized_name: symbolIWD
+            accessor:
+                getter: getSymbolIWD
+                setter: setSymbolIWD
+            type: string
+        nazwaWyswietlana:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaWyswietlana
+            accessor:
+                getter: getNazwaWyswietlana
+                setter: setNazwaWyswietlana
+            type: string
+        nazwaProduktu:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaProduktu
+            accessor:
+                getter: getNazwaProduktu
+                setter: setNazwaProduktu
+            type: string

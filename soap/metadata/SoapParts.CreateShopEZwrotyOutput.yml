@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\CreateShopEZwrotyOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        createShopEZwrotyResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getCreateShopEZwrotyResponse
+                setter: setCreateShopEZwrotyResponse
+            serialized_name: createShopEZwrotyResponse
+            type: TomaszKusy\En\CreateShopEZwrotyResponse

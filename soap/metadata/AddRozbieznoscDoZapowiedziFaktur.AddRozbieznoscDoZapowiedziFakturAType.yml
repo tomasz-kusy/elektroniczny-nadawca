@@ -1,0 +1,13 @@
+TomaszKusy\En\AddRozbieznoscDoZapowiedziFaktur\AddRozbieznoscDoZapowiedziFakturAType:
+    properties:
+        rozbieznosciZipFile:
+            expose: true
+            access_type: public_method
+            serialized_name: rozbieznosciZipFile
+            accessor:
+                getter: getRozbieznosciZipFile
+                setter: setRozbieznosciZipFile
+            xml_list:
+                inline: true
+                entry_name: rozbieznosciZipFile
+            type: array<GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded>

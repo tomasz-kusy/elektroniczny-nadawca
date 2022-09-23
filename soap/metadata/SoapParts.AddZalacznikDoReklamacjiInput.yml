@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\AddZalacznikDoReklamacjiInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        addZalacznikDoReklamacji:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getAddZalacznikDoReklamacji
+                setter: setAddZalacznikDoReklamacji
+            serialized_name: addZalacznikDoReklamacji
+            type: TomaszKusy\En\AddZalacznikDoReklamacji

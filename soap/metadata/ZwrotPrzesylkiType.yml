@@ -1,0 +1,29 @@
+TomaszKusy\En\ZwrotPrzesylkiType:
+    properties:
+        przyczyna:
+            expose: true
+            access_type: public_method
+            serialized_name: przyczyna
+            accessor:
+                getter: getPrzyczyna
+                setter: setPrzyczyna
+            xml_attribute: true
+            type: string
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            accessor:
+                getter: getData
+                setter: setData
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        przyczynaZwrotuDodatkowa:
+            expose: true
+            access_type: public_method
+            serialized_name: przyczynaZwrotuDodatkowa
+            accessor:
+                getter: getPrzyczynaZwrotuDodatkowa
+                setter: setPrzyczynaZwrotuDodatkowa
+            xml_attribute: true
+            type: string

@@ -1,0 +1,29 @@
+TomaszKusy\En\ErrorType:
+    properties:
+        errorNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: errorNumber
+            accessor:
+                getter: getErrorNumber
+                setter: setErrorNumber
+            xml_attribute: true
+            type: int
+        errorDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: errorDesc
+            accessor:
+                getter: getErrorDesc
+                setter: setErrorDesc
+            xml_attribute: true
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string

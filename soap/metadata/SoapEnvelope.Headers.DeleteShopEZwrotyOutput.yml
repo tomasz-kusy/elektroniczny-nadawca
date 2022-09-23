@@ -1,0 +1,3 @@
+TomaszKusy\En\SoapEnvelope\Headers\DeleteShopEZwrotyOutput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

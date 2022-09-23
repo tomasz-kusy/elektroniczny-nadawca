@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\SetStatusZgodyNaEZwrotOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        setStatusZgodyNaEZwrotResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getSetStatusZgodyNaEZwrotResponse
+                setter: setSetStatusZgodyNaEZwrotResponse
+            serialized_name: setStatusZgodyNaEZwrotResponse
+            type: TomaszKusy\En\SetStatusZgodyNaEZwrotResponse

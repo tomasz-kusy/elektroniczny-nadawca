@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetAddressLabelInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getAddressLabel:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetAddressLabel
+                setter: setGetAddressLabel
+            serialized_name: getAddressLabel
+            type: TomaszKusy\En\GetAddressLabel

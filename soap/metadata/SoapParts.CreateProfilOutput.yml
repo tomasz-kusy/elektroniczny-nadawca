@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\CreateProfilOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        createProfilResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getCreateProfilResponse
+                setter: setCreateProfilResponse
+            serialized_name: createProfilResponse
+            type: TomaszKusy\En\CreateProfilResponse

@@ -1,0 +1,10 @@
+TomaszKusy\En\GetReklamacje\GetReklamacjeAType:
+    properties:
+        dataRozpatrzenia:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRozpatrzenia
+            accessor:
+                getter: getDataRozpatrzenia
+                setter: setDataRozpatrzenia
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

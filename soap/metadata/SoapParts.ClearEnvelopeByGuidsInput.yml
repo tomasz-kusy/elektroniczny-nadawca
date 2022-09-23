@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\ClearEnvelopeByGuidsInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        clearEnvelopeByGuids:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getClearEnvelopeByGuids
+                setter: setClearEnvelopeByGuids
+            serialized_name: clearEnvelopeByGuids
+            type: TomaszKusy\En\ClearEnvelopeByGuids

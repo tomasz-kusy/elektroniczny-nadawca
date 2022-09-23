@@ -1,0 +1,96 @@
+TomaszKusy\En\CustomsDeclarationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: content
+            accessor:
+                getter: getContent
+                setter: setContent
+            type: string
+        accompanyingDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: accompanyingDocuments
+            accessor:
+                getter: getAccompanyingDocuments
+                setter: setAccompanyingDocuments
+            xml_list:
+                inline: true
+                entry_name: accompanyingDocuments
+            type: array<TomaszKusy\En\AccompanyingDocumentsType>
+        explanation:
+            expose: true
+            access_type: public_method
+            serialized_name: explanation
+            accessor:
+                getter: getExplanation
+                setter: setExplanation
+            type: string
+        postalCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: postalCharges
+            accessor:
+                getter: getPostalCharges
+                setter: setPostalCharges
+            type: string
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: comments
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: string
+        importerReferenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: importerReferenceNumber
+            accessor:
+                getter: getImporterReferenceNumber
+                setter: setImporterReferenceNumber
+            type: string
+        importerPhoneNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: importerPhoneNumber
+            accessor:
+                getter: getImporterPhoneNumber
+                setter: setImporterPhoneNumber
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: currencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: string
+        shipmentContentsDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: shipmentContentsDetails
+            accessor:
+                getter: getShipmentContentsDetails
+                setter: setShipmentContentsDetails
+            xml_list:
+                inline: true
+                entry_name: shipmentContentsDetails
+            type: array<TomaszKusy\En\ShipmentContentsDetailsType>
+        customsReferenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: 'customsReferenceNumber '
+            accessor:
+                getter: getCustomsReferenceNumber
+                setter: setCustomsReferenceNumber
+            type: string

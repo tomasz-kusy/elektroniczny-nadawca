@@ -1,0 +1,13 @@
+TomaszKusy\En\IsObszarMiastoResponse\IsObszarMiastoResponseAType:
+    properties:
+        obszarAdresowy:
+            expose: true
+            access_type: public_method
+            serialized_name: obszarAdresowy
+            accessor:
+                getter: getObszarAdresowy
+                setter: setObszarAdresowy
+            xml_list:
+                inline: true
+                entry_name: obszarAdresowy
+            type: array<TomaszKusy\En\ObszarAdresowyResponseType>

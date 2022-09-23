@@ -1,0 +1,83 @@
+TomaszKusy\En\ReklamacjaRozpatrzonaType:
+    properties:
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        rozstrzygniecie:
+            expose: true
+            access_type: public_method
+            serialized_name: rozstrzygniecie
+            accessor:
+                getter: getRozstrzygniecie
+                setter: setRozstrzygniecie
+            xml_attribute: true
+            type: string
+        przyznaneOdszkodowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: przyznaneOdszkodowanie
+            accessor:
+                getter: getPrzyznaneOdszkodowanie
+                setter: setPrzyznaneOdszkodowanie
+            xml_attribute: true
+            type: int
+        uzasadnienie:
+            expose: true
+            access_type: public_method
+            serialized_name: uzasadnienie
+            accessor:
+                getter: getUzasadnienie
+                setter: setUzasadnienie
+            xml_attribute: true
+            type: string
+        dataRozpatrzenia:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRozpatrzenia
+            accessor:
+                getter: getDataRozpatrzenia
+                setter: setDataRozpatrzenia
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        nazwaJednostkiRozpatrujacej:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaJednostkiRozpatrujacej
+            accessor:
+                getter: getNazwaJednostkiRozpatrujacej
+                setter: setNazwaJednostkiRozpatrujacej
+            xml_attribute: true
+            type: string
+        osobaRozpatrujaca:
+            expose: true
+            access_type: public_method
+            serialized_name: osobaRozpatrujaca
+            accessor:
+                getter: getOsobaRozpatrujaca
+                setter: setOsobaRozpatrujaca
+            xml_attribute: true
+            type: string
+        idReklamacja:
+            expose: true
+            access_type: public_method
+            serialized_name: idReklamacja
+            accessor:
+                getter: getIdReklamacja
+                setter: setIdReklamacja
+            xml_attribute: true
+            type: string

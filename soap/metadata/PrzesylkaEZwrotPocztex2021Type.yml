@@ -1,0 +1,26 @@
+TomaszKusy\En\PrzesylkaEZwrotPocztex2021Type:
+    properties:
+        numerNadaniaZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadaniaZwrot
+            accessor:
+                getter: getNumerNadaniaZwrot
+                setter: setNumerNadaniaZwrot
+            type: string
+        idSklepEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: idSklepEZwrot
+            accessor:
+                getter: getIdSklepEZwrot
+                setter: setIdSklepEZwrot
+            type: int
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string

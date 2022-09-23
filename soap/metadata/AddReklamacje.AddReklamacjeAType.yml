@@ -1,0 +1,13 @@
+TomaszKusy\En\AddReklamacje\AddReklamacjeAType:
+    properties:
+        reklamowanaPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: reklamowanaPrzesylka
+            accessor:
+                getter: getReklamowanaPrzesylka
+                setter: setReklamowanaPrzesylka
+            xml_list:
+                inline: true
+                entry_name: reklamowanaPrzesylka
+            type: array<TomaszKusy\En\ReklamowanaPrzesylkaType>

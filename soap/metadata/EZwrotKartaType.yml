@@ -1,0 +1,18 @@
+TomaszKusy\En\EZwrotKartaType:
+    properties:
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            type: int
+        idAdresKorespondencyjny:
+            expose: true
+            access_type: public_method
+            serialized_name: idAdresKorespondencyjny
+            accessor:
+                getter: getIdAdresKorespondencyjny
+                setter: setIdAdresKorespondencyjny
+            type: int

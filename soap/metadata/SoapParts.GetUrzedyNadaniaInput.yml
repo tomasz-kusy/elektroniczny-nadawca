@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetUrzedyNadaniaInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getUrzedyNadania:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetUrzedyNadania
+                setter: setGetUrzedyNadania
+            serialized_name: getUrzedyNadania
+            type: TomaszKusy\En\GetUrzedyNadania

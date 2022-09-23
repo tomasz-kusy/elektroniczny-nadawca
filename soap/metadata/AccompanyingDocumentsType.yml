@@ -1,0 +1,18 @@
+TomaszKusy\En\AccompanyingDocumentsType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string

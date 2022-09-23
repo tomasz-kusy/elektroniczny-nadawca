@@ -1,0 +1,47 @@
+TomaszKusy\En\ObszarAdresowyType:
+    properties:
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPocztowy
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            xml_attribute: true
+            type: string
+        miejscowosc:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscowosc
+            accessor:
+                getter: getMiejscowosc
+                setter: setMiejscowosc
+            xml_attribute: true
+            type: string
+        ulica:
+            expose: true
+            access_type: public_method
+            serialized_name: ulica
+            accessor:
+                getter: getUlica
+                setter: setUlica
+            xml_attribute: true
+            type: string
+        numerDomu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerDomu
+            accessor:
+                getter: getNumerDomu
+                setter: setNumerDomu
+            xml_attribute: true
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string

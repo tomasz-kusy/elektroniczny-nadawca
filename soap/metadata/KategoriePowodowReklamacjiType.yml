@@ -1,0 +1,21 @@
+TomaszKusy\En\KategoriePowodowReklamacjiType:
+    properties:
+        nazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa
+            accessor:
+                getter: getNazwa
+                setter: setNazwa
+            type: string
+        powodReklamacji:
+            expose: true
+            access_type: public_method
+            serialized_name: powodReklamacji
+            accessor:
+                getter: getPowodReklamacji
+                setter: setPowodReklamacji
+            xml_list:
+                inline: true
+                entry_name: powodReklamacji
+            type: array<TomaszKusy\En\PowodReklamacjiType>

@@ -1,0 +1,13 @@
+TomaszKusy\En\AddShipmentResponse\AddShipmentResponseAType:
+    properties:
+        retval:
+            expose: true
+            access_type: public_method
+            serialized_name: retval
+            accessor:
+                getter: getRetval
+                setter: setRetval
+            xml_list:
+                inline: true
+                entry_name: retval
+            type: array<TomaszKusy\En\AddShipmentResponseItemType>

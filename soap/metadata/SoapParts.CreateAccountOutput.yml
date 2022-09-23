@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\CreateAccountOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        createAccountResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getCreateAccountResponse
+                setter: setCreateAccountResponse
+            serialized_name: createAccountResponse
+            type: TomaszKusy\En\CreateAccountResponse

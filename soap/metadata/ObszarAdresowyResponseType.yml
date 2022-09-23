@@ -1,0 +1,20 @@
+TomaszKusy\En\ObszarAdresowyResponseType:
+    properties:
+        isObszarMiasto:
+            expose: true
+            access_type: public_method
+            serialized_name: isObszarMiasto
+            accessor:
+                getter: getIsObszarMiasto
+                setter: setIsObszarMiasto
+            xml_attribute: true
+            type: bool
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string

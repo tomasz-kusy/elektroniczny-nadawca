@@ -1,0 +1,3 @@
+TomaszKusy\En\SoapEnvelope\Headers\IsObszarMiastoInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

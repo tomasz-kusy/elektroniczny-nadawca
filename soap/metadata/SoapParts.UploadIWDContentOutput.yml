@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\UploadIWDContentOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        uploadIWDContentResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getUploadIWDContentResponse
+                setter: setUploadIWDContentResponse
+            serialized_name: uploadIWDContentResponse
+            type: TomaszKusy\En\UploadIWDContentResponse

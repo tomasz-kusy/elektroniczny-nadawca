@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetKierunkiInfoOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getKierunkiInfoResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetKierunkiInfoResponse
+                setter: setGetKierunkiInfoResponse
+            serialized_name: getKierunkiInfoResponse
+            type: TomaszKusy\En\GetKierunkiInfoResponse

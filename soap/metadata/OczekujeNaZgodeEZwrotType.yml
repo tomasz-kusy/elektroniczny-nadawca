@@ -1,0 +1,73 @@
+TomaszKusy\En\OczekujeNaZgodeEZwrotType:
+    properties:
+        idZgody:
+            expose: true
+            access_type: public_method
+            serialized_name: idZgody
+            accessor:
+                getter: getIdZgody
+                setter: setIdZgody
+            xml_attribute: true
+            type: int
+        nazwaProduktu:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaProduktu
+            accessor:
+                getter: getNazwaProduktu
+                setter: setNazwaProduktu
+            xml_attribute: true
+            type: string
+        numerZamowienia:
+            expose: true
+            access_type: public_method
+            serialized_name: numerZamowienia
+            accessor:
+                getter: getNumerZamowienia
+                setter: setNumerZamowienia
+            xml_attribute: true
+            type: string
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_attribute: true
+            type: string
+        dataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNadania
+            accessor:
+                getter: getDataNadania
+                setter: setDataNadania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        guidZgodaEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: guidZgodaEZwrot
+            accessor:
+                getter: getGuidZgodaEZwrot
+                setter: setGuidZgodaEZwrot
+            xml_attribute: true
+            type: string
+        sklepEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: sklepEZwrot
+            accessor:
+                getter: getSklepEZwrot
+                setter: setSklepEZwrot
+            type: TomaszKusy\En\ShopEZwrotyType

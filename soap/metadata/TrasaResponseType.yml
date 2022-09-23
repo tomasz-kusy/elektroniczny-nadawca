@@ -1,0 +1,18 @@
+TomaszKusy\En\TrasaResponseType:
+    properties:
+        isMiejscowa:
+            expose: true
+            access_type: public_method
+            serialized_name: isMiejscowa
+            accessor:
+                getter: getIsMiejscowa
+                setter: setIsMiejscowa
+            type: bool
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            type: string

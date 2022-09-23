@@ -1,0 +1,10 @@
+TomaszKusy\En\CancelReklamacja\CancelReklamacjaAType:
+    properties:
+        idRelkamacja:
+            expose: true
+            access_type: public_method
+            serialized_name: idRelkamacja
+            accessor:
+                getter: getIdRelkamacja
+                setter: setIdRelkamacja
+            type: int

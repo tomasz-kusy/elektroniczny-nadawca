@@ -1,0 +1,29 @@
+TomaszKusy\En\EZDOPakietType:
+    properties:
+        idEZDOPakiet:
+            expose: true
+            access_type: public_method
+            serialized_name: idEZDOPakiet
+            accessor:
+                getter: getIdEZDOPakiet
+                setter: setIdEZDOPakiet
+            xml_attribute: true
+            type: int
+        exported:
+            expose: true
+            access_type: public_method
+            serialized_name: exported
+            accessor:
+                getter: getExported
+                setter: setExported
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        idEZDOFile:
+            expose: true
+            access_type: public_method
+            serialized_name: idEZDOFile
+            accessor:
+                getter: getIdEZDOFile
+                setter: setIdEZDOFile
+            xml_attribute: true
+            type: string

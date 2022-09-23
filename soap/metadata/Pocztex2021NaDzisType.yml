@@ -1,0 +1,29 @@
+TomaszKusy\En\Pocztex2021NaDzisType:
+    properties:
+        subPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: subPrzesylka
+            accessor:
+                getter: getSubPrzesylka
+                setter: setSubPrzesylka
+            xml_list:
+                inline: true
+                entry_name: subPrzesylka
+            type: array<TomaszKusy\En\SubPocztex2021NaDzisType>
+        odleglosc:
+            expose: true
+            access_type: public_method
+            serialized_name: odleglosc
+            accessor:
+                getter: getOdleglosc
+                setter: setOdleglosc
+            type: int
+        obszar:
+            expose: true
+            access_type: public_method
+            serialized_name: obszar
+            accessor:
+                getter: getObszar
+                setter: setObszar
+            type: string

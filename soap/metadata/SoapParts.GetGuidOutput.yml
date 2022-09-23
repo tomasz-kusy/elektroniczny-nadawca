@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetGuidOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getGuidResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetGuidResponse
+                setter: setGetGuidResponse
+            serialized_name: getGuidResponse
+            type: TomaszKusy\En\GetGuidResponse

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\CreateEnvelopeBuforInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        createEnvelopeBufor:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getCreateEnvelopeBufor
+                setter: setCreateEnvelopeBufor
+            serialized_name: createEnvelopeBufor
+            type: TomaszKusy\En\CreateEnvelopeBufor

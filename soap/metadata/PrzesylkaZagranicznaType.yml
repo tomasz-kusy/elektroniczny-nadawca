@@ -1,0 +1,79 @@
+TomaszKusy\En\PrzesylkaZagranicznaType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        ekspres:
+            expose: true
+            access_type: public_method
+            serialized_name: ekspres
+            accessor:
+                getter: getEkspres
+                setter: setEkspres
+            xml_attribute: true
+            type: bool
+        kraj:
+            expose: true
+            access_type: public_method
+            serialized_name: kraj
+            accessor:
+                getter: getKraj
+                setter: setKraj
+            xml_attribute: true
+            type: string
+        adres:
+            expose: true
+            access_type: public_method
+            serialized_name: adres
+            accessor:
+                getter: getAdres
+                setter: setAdres
+            type: TomaszKusy\En\AdresType
+        nadawca:
+            expose: true
+            access_type: public_method
+            serialized_name: nadawca
+            accessor:
+                getter: getNadawca
+                setter: setNadawca
+            type: TomaszKusy\En\AdresType
+        deklaracjaCelna2:
+            expose: true
+            access_type: public_method
+            serialized_name: deklaracjaCelna2
+            accessor:
+                getter: getDeklaracjaCelna2
+                setter: setDeklaracjaCelna2
+            type: TomaszKusy\En\DeklaracjaCelna2Type
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            type: string

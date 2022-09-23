@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\WyslijLinkaOStatusieEZwrotuOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        wyslijLinkaOStatusieEZwrotuResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getWyslijLinkaOStatusieEZwrotuResponse
+                setter: setWyslijLinkaOStatusieEZwrotuResponse
+            serialized_name: wyslijLinkaOStatusieEZwrotuResponse
+            type: TomaszKusy\En\WyslijLinkaOStatusieEZwrotuResponse

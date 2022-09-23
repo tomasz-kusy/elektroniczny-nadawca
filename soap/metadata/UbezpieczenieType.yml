@@ -1,0 +1,29 @@
+TomaszKusy\En\UbezpieczenieType:
+    properties:
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            xml_attribute: true
+            type: string
+        kwota:
+            expose: true
+            access_type: public_method
+            serialized_name: kwota
+            accessor:
+                getter: getKwota
+                setter: setKwota
+            xml_attribute: true
+            type: float
+        akceptacjaOWU:
+            expose: true
+            access_type: public_method
+            serialized_name: akceptacjaOWU
+            accessor:
+                getter: getAkceptacjaOWU
+                setter: setAkceptacjaOWU
+            xml_attribute: true
+            type: bool

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\DownloadIWDContentInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        downloadIWDContent:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getDownloadIWDContent
+                setter: setDownloadIWDContent
+            serialized_name: downloadIWDContent
+            type: TomaszKusy\En\DownloadIWDContent

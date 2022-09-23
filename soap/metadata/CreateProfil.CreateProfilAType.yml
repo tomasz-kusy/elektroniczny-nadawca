@@ -1,0 +1,10 @@
+TomaszKusy\En\CreateProfil\CreateProfilAType:
+    properties:
+        profil:
+            expose: true
+            access_type: public_method
+            serialized_name: profil
+            accessor:
+                getter: getProfil
+                setter: setProfil
+            type: TomaszKusy\En\ProfilType

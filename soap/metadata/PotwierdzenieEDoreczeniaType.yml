@@ -1,0 +1,18 @@
+TomaszKusy\En\PotwierdzenieEDoreczeniaType:
+    properties:
+        sposob:
+            expose: true
+            access_type: public_method
+            serialized_name: sposob
+            accessor:
+                getter: getSposob
+                setter: setSposob
+            type: string
+        kontakt:
+            expose: true
+            access_type: public_method
+            serialized_name: kontakt
+            accessor:
+                getter: getKontakt
+                setter: setKontakt
+            type: string

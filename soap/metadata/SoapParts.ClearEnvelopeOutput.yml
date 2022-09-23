@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\ClearEnvelopeOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        clearEnvelopeResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getClearEnvelopeResponse
+                setter: setClearEnvelopeResponse
+            serialized_name: clearEnvelopeResponse
+            type: TomaszKusy\En\ClearEnvelopeResponse

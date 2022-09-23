@@ -1,0 +1,18 @@
+TomaszKusy\En\PrzesylkaFullType:
+    properties:
+        przesylkaShort:
+            expose: true
+            access_type: public_method
+            serialized_name: przesylkaShort
+            accessor:
+                getter: getPrzesylkaShort
+                setter: setPrzesylkaShort
+            type: TomaszKusy\En\PrzesylkaShortType
+        przesylkaFull:
+            expose: true
+            access_type: public_method
+            serialized_name: przesylkaFull
+            accessor:
+                getter: getPrzesylkaFull
+                setter: setPrzesylkaFull
+            type: TomaszKusy\En\PrzesylkaType

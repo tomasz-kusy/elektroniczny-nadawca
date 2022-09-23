@@ -1,0 +1,3 @@
+TomaszKusy\En\GetEnvelopeBuforList:
+    xml_root_name: 'ns-d1b571e9:getEnvelopeBuforList'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

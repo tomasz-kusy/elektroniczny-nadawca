@@ -1,0 +1,38 @@
+TomaszKusy\En\GetEPOStatus\GetEPOStatusAType:
+    properties:
+        withBioepo:
+            expose: true
+            access_type: public_method
+            serialized_name: withBioepo
+            accessor:
+                getter: getWithBioepo
+                setter: setWithBioepo
+            xml_attribute: true
+            type: bool
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_list:
+                inline: true
+                entry_name: guid
+            type: array<string>
+        endedOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: endedOnly
+            accessor:
+                getter: getEndedOnly
+                setter: setEndedOnly
+            type: bool
+        idEnvelope:
+            expose: true
+            access_type: public_method
+            serialized_name: idEnvelope
+            accessor:
+                getter: getIdEnvelope
+                setter: setIdEnvelope
+            type: int

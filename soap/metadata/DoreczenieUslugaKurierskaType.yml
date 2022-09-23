@@ -1,0 +1,74 @@
+TomaszKusy\En\DoreczenieUslugaKurierskaType:
+    properties:
+        oczekiwanyTerminDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwanyTerminDoreczenia
+            accessor:
+                getter: getOczekiwanyTerminDoreczenia
+                setter: setOczekiwanyTerminDoreczenia
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        oczekiwanaGodzinaDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwanaGodzinaDoreczenia
+            accessor:
+                getter: getOczekiwanaGodzinaDoreczenia
+                setter: setOczekiwanaGodzinaDoreczenia
+            xml_attribute: true
+            type: string
+        wSobote:
+            expose: true
+            access_type: public_method
+            serialized_name: wSobote
+            accessor:
+                getter: getWSobote
+                setter: setWSobote
+            xml_attribute: true
+            type: bool
+        w90Minut:
+            expose: true
+            access_type: public_method
+            serialized_name: w90Minut
+            accessor:
+                getter: getW90Minut
+                setter: setW90Minut
+            xml_attribute: true
+            type: bool
+        wNiedzieleLubSwieto:
+            expose: true
+            access_type: public_method
+            serialized_name: wNiedzieleLubSwieto
+            accessor:
+                getter: getWNiedzieleLubSwieto
+                setter: setWNiedzieleLubSwieto
+            xml_attribute: true
+            type: bool
+        doRakWlasnych:
+            expose: true
+            access_type: public_method
+            serialized_name: doRakWlasnych
+            accessor:
+                getter: getDoRakWlasnych
+                setter: setDoRakWlasnych
+            xml_attribute: true
+            type: bool
+        wGodzinachOd20Do7:
+            expose: true
+            access_type: public_method
+            serialized_name: wGodzinachOd20Do7
+            accessor:
+                getter: getWGodzinachOd20Do7
+                setter: setWGodzinachOd20Do7
+            xml_attribute: true
+            type: bool
+        po17:
+            expose: true
+            access_type: public_method
+            serialized_name: po17
+            accessor:
+                getter: getPo17
+                setter: setPo17
+            xml_attribute: true
+            type: bool

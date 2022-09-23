@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "goetas-webservices/wsdl2php": "^0.5.2"
+    },
+    "require": {
+        "nyholm/psr7": "^1.5",
+        "symfony/http-client": "^6.1",
+        "goetas-webservices/soap-client": "^0.2.10"
+    }
+}

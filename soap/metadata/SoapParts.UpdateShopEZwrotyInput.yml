@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\UpdateShopEZwrotyInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        updateShopEZwroty:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getUpdateShopEZwroty
+                setter: setUpdateShopEZwroty
+            serialized_name: updateShopEZwroty
+            type: TomaszKusy\En\UpdateShopEZwroty

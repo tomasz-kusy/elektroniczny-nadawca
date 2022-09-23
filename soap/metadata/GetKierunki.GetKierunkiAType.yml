@@ -1,0 +1,18 @@
+TomaszKusy\En\GetKierunki\GetKierunkiAType:
+    properties:
+        plan:
+            expose: true
+            access_type: public_method
+            serialized_name: plan
+            accessor:
+                getter: getPlan
+                setter: setPlan
+            type: string
+        prefixKodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: prefixKodPocztowy
+            accessor:
+                getter: getPrefixKodPocztowy
+                setter: setPrefixKodPocztowy
+            type: string

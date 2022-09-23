@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\HelloInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        hello:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getHello
+                setter: setHello
+            serialized_name: hello
+            type: TomaszKusy\En\Hello

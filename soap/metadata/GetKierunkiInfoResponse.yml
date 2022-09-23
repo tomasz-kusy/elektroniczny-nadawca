@@ -1,0 +1,3 @@
+TomaszKusy\En\GetKierunkiInfoResponse:
+    xml_root_name: 'ns-d1b571e9:getKierunkiInfoResponse'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

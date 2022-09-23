@@ -1,0 +1,74 @@
+TomaszKusy\En\PaczkaZagranicznaPremiumType:
+    properties:
+        zwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrot
+            accessor:
+                getter: getZwrot
+                setter: setZwrot
+            type: TomaszKusy\En\ZwrotType
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            type: bool
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            type: int
+        deklaracjaCelna2:
+            expose: true
+            access_type: public_method
+            serialized_name: deklaracjaCelna2
+            accessor:
+                getter: getDeklaracjaCelna2
+                setter: setDeklaracjaCelna2
+            type: TomaszKusy\En\DeklaracjaCelna2Type
+        sposobNadaniaInterconnect:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobNadaniaInterconnect
+            accessor:
+                getter: getSposobNadaniaInterconnect
+                setter: setSposobNadaniaInterconnect
+            type: string
+        potwierdzenieDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieDoreczenia
+            accessor:
+                getter: getPotwierdzenieDoreczenia
+                setter: setPotwierdzenieDoreczenia
+            type: TomaszKusy\En\PotwierdzenieDoreczeniaType
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            type: string
+        sposobDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobDoreczenia
+            accessor:
+                getter: getSposobDoreczenia
+                setter: setSposobDoreczenia
+            type: TomaszKusy\En\SposobDoreczeniaType

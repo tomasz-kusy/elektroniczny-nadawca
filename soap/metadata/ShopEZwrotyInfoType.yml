@@ -1,0 +1,38 @@
+TomaszKusy\En\ShopEZwrotyInfoType:
+    properties:
+        idShop:
+            expose: true
+            access_type: public_method
+            serialized_name: idShop
+            accessor:
+                getter: getIdShop
+                setter: setIdShop
+            xml_attribute: true
+            type: int
+        przyjaznaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: przyjaznaNazwa
+            accessor:
+                getter: getPrzyjaznaNazwa
+                setter: setPrzyjaznaNazwa
+            xml_attribute: true
+            type: string
+        availableOnWebsite:
+            expose: true
+            access_type: public_method
+            serialized_name: availableOnWebsite
+            accessor:
+                getter: getAvailableOnWebsite
+                setter: setAvailableOnWebsite
+            xml_attribute: true
+            type: bool
+        nip:
+            expose: true
+            access_type: public_method
+            serialized_name: nip
+            accessor:
+                getter: getNip
+                setter: setNip
+            xml_attribute: true
+            type: string

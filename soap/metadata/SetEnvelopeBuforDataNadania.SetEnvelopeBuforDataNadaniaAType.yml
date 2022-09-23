@@ -1,0 +1,10 @@
+TomaszKusy\En\SetEnvelopeBuforDataNadania\SetEnvelopeBuforDataNadaniaAType:
+    properties:
+        dataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNadania
+            accessor:
+                getter: getDataNadania
+                setter: setDataNadania
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

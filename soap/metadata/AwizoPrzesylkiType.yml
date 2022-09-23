@@ -1,0 +1,38 @@
+TomaszKusy\En\AwizoPrzesylkiType:
+    properties:
+        dataPierwszegoAwizowania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPierwszegoAwizowania
+            accessor:
+                getter: getDataPierwszegoAwizowania
+                setter: setDataPierwszegoAwizowania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        dataDrugiegoAwizowania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataDrugiegoAwizowania
+            accessor:
+                getter: getDataDrugiegoAwizowania
+                setter: setDataDrugiegoAwizowania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        miejscePozostawienia:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscePozostawienia
+            accessor:
+                getter: getMiejscePozostawienia
+                setter: setMiejscePozostawienia
+            xml_attribute: true
+            type: string
+        idPlacowkaPocztowaWydajaca:
+            expose: true
+            access_type: public_method
+            serialized_name: idPlacowkaPocztowaWydajaca
+            accessor:
+                getter: getIdPlacowkaPocztowaWydajaca
+                setter: setIdPlacowkaPocztowaWydajaca
+            xml_attribute: true
+            type: int

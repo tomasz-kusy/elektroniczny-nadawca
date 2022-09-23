@@ -1,0 +1,26 @@
+TomaszKusy\En\EPOInfoType:
+    properties:
+        awizoPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: awizoPrzesylki
+            accessor:
+                getter: getAwizoPrzesylki
+                setter: setAwizoPrzesylki
+            type: TomaszKusy\En\AwizoPrzesylkiType
+        doreczeniePrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczeniePrzesylki
+            accessor:
+                getter: getDoreczeniePrzesylki
+                setter: setDoreczeniePrzesylki
+            type: TomaszKusy\En\DoreczeniePrzesylkiType
+        zwrotPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotPrzesylki
+            accessor:
+                getter: getZwrotPrzesylki
+                setter: setZwrotPrzesylki
+            type: TomaszKusy\En\ZwrotPrzesylkiType

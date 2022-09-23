@@ -1,0 +1,3 @@
+TomaszKusy\En\GetUbezpieczeniaInfoResponse:
+    xml_root_name: 'ns-d1b571e9:getUbezpieczeniaInfoResponse'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

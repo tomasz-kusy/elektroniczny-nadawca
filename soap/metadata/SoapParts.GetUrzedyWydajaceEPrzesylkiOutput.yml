@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetUrzedyWydajaceEPrzesylkiOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getUrzedyWydajaceEPrzesylkiResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetUrzedyWydajaceEPrzesylkiResponse
+                setter: setGetUrzedyWydajaceEPrzesylkiResponse
+            serialized_name: getUrzedyWydajaceEPrzesylkiResponse
+            type: TomaszKusy\En\GetUrzedyWydajaceEPrzesylkiResponse

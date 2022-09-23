@@ -1,0 +1,56 @@
+TomaszKusy\En\DeliveryPathType:
+    properties:
+        endNode:
+            expose: true
+            access_type: public_method
+            serialized_name: endNode
+            accessor:
+                getter: getEndNode
+                setter: setEndNode
+            xml_attribute: true
+            type: string
+        targetingNode:
+            expose: true
+            access_type: public_method
+            serialized_name: targetingNode
+            accessor:
+                getter: getTargetingNode
+                setter: setTargetingNode
+            xml_attribute: true
+            type: string
+        assistantNode:
+            expose: true
+            access_type: public_method
+            serialized_name: assistantNode
+            accessor:
+                getter: getAssistantNode
+                setter: setAssistantNode
+            xml_attribute: true
+            type: string
+        reloadingPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: reloadingPoint
+            accessor:
+                getter: getReloadingPoint
+                setter: setReloadingPoint
+            xml_attribute: true
+            type: string
+        postOffice:
+            expose: true
+            access_type: public_method
+            serialized_name: postOffice
+            accessor:
+                getter: getPostOffice
+                setter: setPostOffice
+            xml_attribute: true
+            type: string
+        deliveryRegion:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryRegion
+            accessor:
+                getter: getDeliveryRegion
+                setter: setDeliveryRegion
+            xml_attribute: true
+            type: string

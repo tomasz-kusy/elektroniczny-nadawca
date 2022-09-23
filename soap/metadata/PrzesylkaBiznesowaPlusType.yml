@@ -1,0 +1,221 @@
+TomaszKusy\En\PrzesylkaBiznesowaPlusType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            xml_attribute: true
+            type: string
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        kwotaTranzakcji:
+            expose: true
+            access_type: public_method
+            serialized_name: kwotaTranzakcji
+            accessor:
+                getter: getKwotaTranzakcji
+                setter: setKwotaTranzakcji
+            xml_attribute: true
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        iloscPotwierdzenOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPotwierdzenOdbioru
+            accessor:
+                getter: getIloscPotwierdzenOdbioru
+                setter: setIloscPotwierdzenOdbioru
+            xml_attribute: true
+            type: int
+        zwrotDoslanie:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDoslanie
+            accessor:
+                getter: getZwrotDoslanie
+                setter: setZwrotDoslanie
+            xml_attribute: true
+            type: bool
+        eKontaktAdresata:
+            expose: true
+            access_type: public_method
+            serialized_name: eKontaktAdresata
+            accessor:
+                getter: getEKontaktAdresata
+                setter: setEKontaktAdresata
+            xml_attribute: true
+            type: string
+        eSposobPowiadomieniaAdresata:
+            expose: true
+            access_type: public_method
+            serialized_name: eSposobPowiadomieniaAdresata
+            accessor:
+                getter: getESposobPowiadomieniaAdresata
+                setter: setESposobPowiadomieniaAdresata
+            xml_attribute: true
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            xml_attribute: true
+            type: string
+        iloscDniOczekiwaniaNaWydanie:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscDniOczekiwaniaNaWydanie
+            accessor:
+                getter: getIloscDniOczekiwaniaNaWydanie
+                setter: setIloscDniOczekiwaniaNaWydanie
+            xml_attribute: true
+            type: int
+        oczekiwanyTerminDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwanyTerminDoreczenia
+            accessor:
+                getter: getOczekiwanyTerminDoreczenia
+                setter: setOczekiwanyTerminDoreczenia
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        terminRodzajPlus:
+            expose: true
+            access_type: public_method
+            serialized_name: terminRodzajPlus
+            accessor:
+                getter: getTerminRodzajPlus
+                setter: setTerminRodzajPlus
+            xml_attribute: true
+            type: string
+        numerTransakcjiOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTransakcjiOdbioru
+            accessor:
+                getter: getNumerTransakcjiOdbioru
+                setter: setNumerTransakcjiOdbioru
+            xml_attribute: true
+            type: string
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        urzadWydaniaPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadWydaniaPrzesylki
+            accessor:
+                getter: getUrzadWydaniaPrzesylki
+                setter: setUrzadWydaniaPrzesylki
+            type: TomaszKusy\En\PlacowkaPocztowaType
+        subPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: subPrzesylka
+            accessor:
+                getter: getSubPrzesylka
+                setter: setSubPrzesylka
+            xml_list:
+                inline: true
+                entry_name: subPrzesylka
+            type: array<TomaszKusy\En\SubPrzesylkaBiznesowaPlusType>
+        dataDrugiejProbyDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: dataDrugiejProbyDoreczenia
+            accessor:
+                getter: getDataDrugiejProbyDoreczenia
+                setter: setDataDrugiejProbyDoreczenia
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        drugaProbaDoreczeniaPoLiczbieDni:
+            expose: true
+            access_type: public_method
+            serialized_name: drugaProbaDoreczeniaPoLiczbieDni
+            accessor:
+                getter: getDrugaProbaDoreczeniaPoLiczbieDni
+                setter: setDrugaProbaDoreczeniaPoLiczbieDni
+            type: int
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            type: bool
+        potwierdzenieOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieOdbioru
+            accessor:
+                getter: getPotwierdzenieOdbioru
+                setter: setPotwierdzenieOdbioru
+            type: TomaszKusy\En\PotwierdzenieOdbioruBiznesowaType
+        doreczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenie
+            accessor:
+                getter: getDoreczenie
+                setter: setDoreczenie
+            type: TomaszKusy\En\DoreczenieBiznesowaType
+        zwrotDokumentow:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDokumentow
+            accessor:
+                getter: getZwrotDokumentow
+                setter: setZwrotDokumentow
+            type: TomaszKusy\En\ZwrotDokumentowBiznesowaType

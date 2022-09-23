@@ -1,0 +1,3 @@
+TomaszKusy\En\SoapEnvelope\Headers\GetEnvelopeContentFullInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

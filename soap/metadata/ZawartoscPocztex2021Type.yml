@@ -1,0 +1,18 @@
+TomaszKusy\En\ZawartoscPocztex2021Type:
+    properties:
+        zawartoscSpecjalna:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartoscSpecjalna
+            accessor:
+                getter: getZawartoscSpecjalna
+                setter: setZawartoscSpecjalna
+            type: string
+        zawartoscInna:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartoscInna
+            accessor:
+                getter: getZawartoscInna
+                setter: setZawartoscInna
+            type: string

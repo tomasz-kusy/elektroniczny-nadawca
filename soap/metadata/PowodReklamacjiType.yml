@@ -1,0 +1,31 @@
+TomaszKusy\En\PowodReklamacjiType:
+    properties:
+        idPowodGlowny:
+            expose: true
+            access_type: public_method
+            serialized_name: idPowodGlowny
+            accessor:
+                getter: getIdPowodGlowny
+                setter: setIdPowodGlowny
+            xml_attribute: true
+            type: int
+        powodGlownyOpis:
+            expose: true
+            access_type: public_method
+            serialized_name: powodGlownyOpis
+            accessor:
+                getter: getPowodGlownyOpis
+                setter: setPowodGlownyOpis
+            xml_attribute: true
+            type: string
+        powodSzczegolowy:
+            expose: true
+            access_type: public_method
+            serialized_name: powodSzczegolowy
+            accessor:
+                getter: getPowodSzczegolowy
+                setter: setPowodSzczegolowy
+            xml_list:
+                inline: true
+                entry_name: powodSzczegolowy
+            type: array<TomaszKusy\En\PowodSzczegolowyType>

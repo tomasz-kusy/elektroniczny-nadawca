@@ -1,0 +1,26 @@
+TomaszKusy\En\GetWplatyCKP\GetWplatyCKPAType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            type: string
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: startDate
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        stopDate:
+            expose: true
+            access_type: public_method
+            serialized_name: stopDate
+            accessor:
+                getter: getStopDate
+                setter: setStopDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

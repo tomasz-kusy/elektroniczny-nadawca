@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\UpdateProfilOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        updateProfilResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getUpdateProfilResponse
+                setter: setUpdateProfilResponse
+            serialized_name: updateProfilResponse
+            type: TomaszKusy\En\UpdateProfilResponse

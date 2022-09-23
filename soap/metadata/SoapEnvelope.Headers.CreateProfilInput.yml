@@ -1,0 +1,3 @@
+TomaszKusy\En\SoapEnvelope\Headers\CreateProfilInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

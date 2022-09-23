@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\AddOdwolanieDoReklamacjiOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        addOdwolanieDoReklamacjiResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getAddOdwolanieDoReklamacjiResponse
+                setter: setAddOdwolanieDoReklamacjiResponse
+            serialized_name: addOdwolanieDoReklamacjiResponse
+            type: TomaszKusy\En\AddOdwolanieDoReklamacjiResponse

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\SetAktywnaKartaOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        setAktywnaKartaResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getSetAktywnaKartaResponse
+                setter: setSetAktywnaKartaResponse
+            serialized_name: setAktywnaKartaResponse
+            type: TomaszKusy\En\SetAktywnaKartaResponse

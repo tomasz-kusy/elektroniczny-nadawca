@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEnvelopeListInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEnvelopeList:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEnvelopeList
+                setter: setGetEnvelopeList
+            serialized_name: getEnvelopeList
+            type: TomaszKusy\En\GetEnvelopeList

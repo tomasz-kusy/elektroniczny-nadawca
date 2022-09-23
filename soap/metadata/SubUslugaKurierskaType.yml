@@ -1,0 +1,81 @@
+TomaszKusy\En\SubUslugaKurierskaType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        opakowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: opakowanie
+            accessor:
+                getter: getOpakowanie
+                setter: setOpakowanie
+            xml_attribute: true
+            type: string
+        ponadgabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: ponadgabaryt
+            accessor:
+                getter: getPonadgabaryt
+                setter: setPonadgabaryt
+            xml_attribute: true
+            type: bool
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            xml_attribute: true
+            type: string
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType

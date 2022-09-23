@@ -1,0 +1,74 @@
+TomaszKusy\En\EZDOPrzesylkaType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            xml_attribute: true
+            type: string
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        kwotaPobrania:
+            expose: true
+            access_type: public_method
+            serialized_name: kwotaPobrania
+            accessor:
+                getter: getKwotaPobrania
+                setter: setKwotaPobrania
+            xml_attribute: true
+            type: int
+        numerWewnetrznyPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: numerWewnetrznyPrzesylki
+            accessor:
+                getter: getNumerWewnetrznyPrzesylki
+                setter: setNumerWewnetrznyPrzesylki
+            xml_attribute: true
+            type: string
+        zwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrot
+            accessor:
+                getter: getZwrot
+                setter: setZwrot
+            xml_attribute: true
+            type: string

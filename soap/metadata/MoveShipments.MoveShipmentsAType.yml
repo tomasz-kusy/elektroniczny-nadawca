@@ -1,0 +1,29 @@
+TomaszKusy\En\MoveShipments\MoveShipmentsAType:
+    properties:
+        idBuforFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: idBuforFrom
+            accessor:
+                getter: getIdBuforFrom
+                setter: setIdBuforFrom
+            type: int
+        idBuforTo:
+            expose: true
+            access_type: public_method
+            serialized_name: idBuforTo
+            accessor:
+                getter: getIdBuforTo
+                setter: setIdBuforTo
+            type: int
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_list:
+                inline: true
+                entry_name: guid
+            type: array<string>

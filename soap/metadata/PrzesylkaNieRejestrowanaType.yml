@@ -1,0 +1,11 @@
+TomaszKusy\En\PrzesylkaNieRejestrowanaType:
+    properties:
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            xml_attribute: true
+            type: int

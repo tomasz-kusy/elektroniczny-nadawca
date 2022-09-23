@@ -1,0 +1,18 @@
+TomaszKusy\En\AwizacjaType:
+    properties:
+        od:
+            expose: true
+            access_type: public_method
+            serialized_name: od
+            accessor:
+                getter: getOd
+                setter: setOd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        do:
+            expose: true
+            access_type: public_method
+            serialized_name: do
+            accessor:
+                getter: getDo
+                setter: setDo
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time

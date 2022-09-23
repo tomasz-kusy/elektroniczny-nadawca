@@ -1,0 +1,13 @@
+TomaszKusy\En\GetProfilListResponse\GetProfilListResponseAType:
+    properties:
+        profil:
+            expose: true
+            access_type: public_method
+            serialized_name: profil
+            accessor:
+                getter: getProfil
+                setter: setProfil
+            xml_list:
+                inline: true
+                entry_name: profil
+            type: array<TomaszKusy\En\ProfilType>

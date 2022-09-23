@@ -1,0 +1,118 @@
+TomaszKusy\En\AccountType:
+    properties:
+        userName:
+            expose: true
+            access_type: public_method
+            serialized_name: userName
+            accessor:
+                getter: getUserName
+                setter: setUserName
+            xml_attribute: true
+            type: string
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: firstName
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            xml_attribute: true
+            type: string
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: lastName
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            xml_attribute: true
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_attribute: true
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        karta:
+            expose: true
+            access_type: public_method
+            serialized_name: karta
+            accessor:
+                getter: getKarta
+                setter: setKarta
+            xml_list:
+                inline: true
+                entry_name: karta
+            type: array<TomaszKusy\En\KartaType>
+        permision:
+            expose: true
+            access_type: public_method
+            serialized_name: permision
+            accessor:
+                getter: getPermision
+                setter: setPermision
+            xml_list:
+                inline: true
+                entry_name: permision
+            type: array<string>
+        profil:
+            expose: true
+            access_type: public_method
+            serialized_name: profil
+            accessor:
+                getter: getProfil
+                setter: setProfil
+            xml_list:
+                inline: true
+                entry_name: profil
+            type: array<TomaszKusy\En\ProfilType>
+        jednostka:
+            expose: true
+            access_type: public_method
+            serialized_name: jednostka
+            accessor:
+                getter: getJednostka
+                setter: setJednostka
+            xml_list:
+                inline: true
+                entry_name: jednostka
+            type: array<TomaszKusy\En\JednostkaOrganizacyjnaType>
+        domyslnaJednostka:
+            expose: true
+            access_type: public_method
+            serialized_name: domyslnaJednostka
+            accessor:
+                getter: getDomyslnaJednostka
+                setter: setDomyslnaJednostka
+            type: TomaszKusy\En\JednostkaOrganizacyjnaType
+        domyslnyProfil:
+            expose: true
+            access_type: public_method
+            serialized_name: domyslnyProfil
+            accessor:
+                getter: getDomyslnyProfil
+                setter: setDomyslnyProfil
+            type: TomaszKusy\En\ProfilType
+        dostepPoAdresieIP:
+            expose: true
+            access_type: public_method
+            serialized_name: dostepPoAdresieIP
+            accessor:
+                getter: getDostepPoAdresieIP
+                setter: setDostepPoAdresieIP
+            xml_list:
+                inline: true
+                entry_name: dostepPoAdresieIP
+            type: array<string>

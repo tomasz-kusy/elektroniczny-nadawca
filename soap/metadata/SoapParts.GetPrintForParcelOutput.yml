@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetPrintForParcelOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getPrintForParcelResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetPrintForParcelResponse
+                setter: setGetPrintForParcelResponse
+            serialized_name: getPrintForParcelResponse
+            type: TomaszKusy\En\GetPrintForParcelResponse

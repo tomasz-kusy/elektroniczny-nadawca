@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetKartyOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getKartyResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetKartyResponse
+                setter: setGetKartyResponse
+            serialized_name: getKartyResponse
+            type: TomaszKusy\En\GetKartyResponse

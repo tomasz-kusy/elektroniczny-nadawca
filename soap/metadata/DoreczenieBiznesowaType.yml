@@ -1,0 +1,10 @@
+TomaszKusy\En\DoreczenieBiznesowaType:
+    properties:
+        doRakWlasnych:
+            expose: true
+            access_type: public_method
+            serialized_name: doRakWlasnych
+            accessor:
+                getter: getDoRakWlasnych
+                setter: setDoRakWlasnych
+            type: bool

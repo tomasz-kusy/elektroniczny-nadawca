@@ -1,0 +1,3 @@
+TomaszKusy\En\CreateEnvelopeBuforResponse:
+    xml_root_name: 'ns-d1b571e9:createEnvelopeBuforResponse'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

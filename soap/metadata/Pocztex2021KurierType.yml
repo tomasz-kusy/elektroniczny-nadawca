@@ -1,0 +1,53 @@
+TomaszKusy\En\Pocztex2021KurierType:
+    properties:
+        subPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: subPrzesylka
+            accessor:
+                getter: getSubPrzesylka
+                setter: setSubPrzesylka
+            xml_list:
+                inline: true
+                entry_name: subPrzesylka
+            type: array<TomaszKusy\En\SubPocztex2021KurierType>
+        punktOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: punktOdbioru
+            accessor:
+                getter: getPunktOdbioru
+                setter: setPunktOdbioru
+            type: TomaszKusy\En\PunktOdbioruType
+        punktNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: punktNadania
+            accessor:
+                getter: getPunktNadania
+                setter: setPunktNadania
+            type: TomaszKusy\En\PunktNadaniaType
+        kopertaPocztex:
+            expose: true
+            access_type: public_method
+            serialized_name: kopertaPocztex
+            accessor:
+                getter: getKopertaPocztex
+                setter: setKopertaPocztex
+            type: bool
+        godzinaDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: godzinaDoreczenia
+            accessor:
+                getter: getGodzinaDoreczenia
+                setter: setGodzinaDoreczenia
+            type: string
+        doreczenieWeWskazanymDniu:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenieWeWskazanymDniu
+            accessor:
+                getter: getDoreczenieWeWskazanymDniu
+                setter: setDoreczenieWeWskazanymDniu
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetPlacowkiPocztoweInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getPlacowkiPocztowe:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetPlacowkiPocztowe
+                setter: setGetPlacowkiPocztowe
+            serialized_name: getPlacowkiPocztowe
+            type: TomaszKusy\En\GetPlacowkiPocztowe

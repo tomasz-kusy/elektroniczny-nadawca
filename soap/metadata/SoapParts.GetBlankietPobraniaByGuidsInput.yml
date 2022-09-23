@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetBlankietPobraniaByGuidsInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getBlankietPobraniaByGuids:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetBlankietPobraniaByGuids
+                setter: setGetBlankietPobraniaByGuids
+            serialized_name: getBlankietPobraniaByGuids
+            type: TomaszKusy\En\GetBlankietPobraniaByGuids

@@ -1,0 +1,58 @@
+TomaszKusy\En\LibraryForLegalDepositType:
+    properties:
+        idLibraryForLegalDeposit:
+            expose: true
+            access_type: public_method
+            serialized_name: idLibraryForLegalDeposit
+            accessor:
+                getter: getIdLibraryForLegalDeposit
+                setter: setIdLibraryForLegalDeposit
+            type: string
+        libraryName:
+            expose: true
+            access_type: public_method
+            serialized_name: libraryName
+            accessor:
+                getter: getLibraryName
+                setter: setLibraryName
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: street
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string
+        houseNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: houseNumber
+            accessor:
+                getter: getHouseNumber
+                setter: setHouseNumber
+            type: string
+        apartmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: apartmentNumber
+            accessor:
+                getter: getApartmentNumber
+                setter: setApartmentNumber
+            type: string
+        zipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: zipCode
+            accessor:
+                getter: getZipCode
+                setter: setZipCode
+            type: string
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: city
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string

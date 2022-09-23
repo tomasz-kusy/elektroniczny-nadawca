@@ -1,0 +1,82 @@
+TomaszKusy\En\ListZwyklyFirmowyType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        miejscowa:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscowa
+            accessor:
+                getter: getMiejscowa
+                setter: setMiejscowa
+            xml_attribute: true
+            type: bool
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        egzemplarzBiblioteczny:
+            expose: true
+            access_type: public_method
+            serialized_name: egzemplarzBiblioteczny
+            accessor:
+                getter: getEgzemplarzBiblioteczny
+                setter: setEgzemplarzBiblioteczny
+            xml_attribute: true
+            type: bool
+        dlaOciemnialych:
+            expose: true
+            access_type: public_method
+            serialized_name: dlaOciemnialych
+            accessor:
+                getter: getDlaOciemnialych
+                setter: setDlaOciemnialych
+            xml_attribute: true
+            type: bool
+        obszarMiasto:
+            expose: true
+            access_type: public_method
+            serialized_name: obszarMiasto
+            accessor:
+                getter: getObszarMiasto
+                setter: setObszarMiasto
+            xml_attribute: true
+            type: bool
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            xml_attribute: true
+            type: string
+        adres:
+            expose: true
+            access_type: public_method
+            serialized_name: adres
+            accessor:
+                getter: getAdres
+                setter: setAdres
+            type: TomaszKusy\En\AdresType

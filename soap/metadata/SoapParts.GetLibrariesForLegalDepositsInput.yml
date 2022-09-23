@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetLibrariesForLegalDepositsInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getLibrariesForLegalDeposits:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetLibrariesForLegalDeposits
+                setter: setGetLibrariesForLegalDeposits
+            serialized_name: getLibrariesForLegalDeposits
+            type: TomaszKusy\En\GetLibrariesForLegalDeposits

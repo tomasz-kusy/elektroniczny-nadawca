@@ -1,0 +1,50 @@
+TomaszKusy\En\ShipmentContentsDetailsType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: int
+        netWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: netWeight
+            accessor:
+                getter: getNetWeight
+                setter: setNetWeight
+            type: int
+        declaredValue:
+            expose: true
+            access_type: public_method
+            serialized_name: declaredValue
+            accessor:
+                getter: getDeclaredValue
+                setter: setDeclaredValue
+            type: int
+        harmonizedSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: harmonizedSystemCode
+            accessor:
+                getter: getHarmonizedSystemCode
+                setter: setHarmonizedSystemCode
+            type: string
+        originLocationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: originLocationCode
+            accessor:
+                getter: getOriginLocationCode
+                setter: setOriginLocationCode
+            type: string

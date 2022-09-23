@@ -1,0 +1,38 @@
+TomaszKusy\En\WspolrzednaGeograficznaType:
+    properties:
+        dec:
+            expose: true
+            access_type: public_method
+            serialized_name: dec
+            accessor:
+                getter: getDec
+                setter: setDec
+            xml_attribute: true
+            type: float
+        stopien:
+            expose: true
+            access_type: public_method
+            serialized_name: stopien
+            accessor:
+                getter: getStopien
+                setter: setStopien
+            xml_attribute: true
+            type: int
+        minuta:
+            expose: true
+            access_type: public_method
+            serialized_name: minuta
+            accessor:
+                getter: getMinuta
+                setter: setMinuta
+            xml_attribute: true
+            type: int
+        sekunda:
+            expose: true
+            access_type: public_method
+            serialized_name: sekunda
+            accessor:
+                getter: getSekunda
+                setter: setSekunda
+            xml_attribute: true
+            type: float

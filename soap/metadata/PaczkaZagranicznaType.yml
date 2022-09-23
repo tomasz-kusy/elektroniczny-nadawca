@@ -1,0 +1,123 @@
+TomaszKusy\En\PaczkaZagranicznaType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        iloscPotwierdzenOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPotwierdzenOdbioru
+            accessor:
+                getter: getIloscPotwierdzenOdbioru
+                setter: setIloscPotwierdzenOdbioru
+            xml_attribute: true
+            type: int
+        utrudnionaManipulacja:
+            expose: true
+            access_type: public_method
+            serialized_name: utrudnionaManipulacja
+            accessor:
+                getter: getUtrudnionaManipulacja
+                setter: setUtrudnionaManipulacja
+            xml_attribute: true
+            type: bool
+        ekspres:
+            expose: true
+            access_type: public_method
+            serialized_name: ekspres
+            accessor:
+                getter: getEkspres
+                setter: setEkspres
+            xml_attribute: true
+            type: bool
+        numerReferencyjnyCelny:
+            expose: true
+            access_type: public_method
+            serialized_name: numerReferencyjnyCelny
+            accessor:
+                getter: getNumerReferencyjnyCelny
+                setter: setNumerReferencyjnyCelny
+            xml_attribute: true
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            xml_attribute: true
+            type: string
+        zwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrot
+            accessor:
+                getter: getZwrot
+                setter: setZwrot
+            type: TomaszKusy\En\ZwrotType
+        deklaracjaCelna:
+            expose: true
+            access_type: public_method
+            serialized_name: deklaracjaCelna
+            accessor:
+                getter: getDeklaracjaCelna
+                setter: setDeklaracjaCelna
+            type: TomaszKusy\En\DeklaracjaCelnaType
+        deklaracjaCelna2:
+            expose: true
+            access_type: public_method
+            serialized_name: deklaracjaCelna2
+            accessor:
+                getter: getDeklaracjaCelna2
+                setter: setDeklaracjaCelna2
+            type: TomaszKusy\En\DeklaracjaCelna2Type
+        sposobNadaniaInterconnect:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobNadaniaInterconnect
+            accessor:
+                getter: getSposobNadaniaInterconnect
+                setter: setSposobNadaniaInterconnect
+            type: string
+        sposobDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobDoreczenia
+            accessor:
+                getter: getSposobDoreczenia
+                setter: setSposobDoreczenia
+            type: TomaszKusy\En\SposobDoreczeniaType

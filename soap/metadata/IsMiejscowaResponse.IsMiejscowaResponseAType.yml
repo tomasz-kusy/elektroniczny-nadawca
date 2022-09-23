@@ -1,0 +1,13 @@
+TomaszKusy\En\IsMiejscowaResponse\IsMiejscowaResponseAType:
+    properties:
+        trasaResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: trasaResponse
+            accessor:
+                getter: getTrasaResponse
+                setter: setTrasaResponse
+            xml_list:
+                inline: true
+                entry_name: trasaResponse
+            type: array<TomaszKusy\En\TrasaResponseType>

@@ -1,0 +1,18 @@
+TomaszKusy\En\DokumentyTowarzyszaceType:
+    properties:
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            type: string
+        numer:
+            expose: true
+            access_type: public_method
+            serialized_name: numer
+            accessor:
+                getter: getNumer
+                setter: setNumer
+            type: string

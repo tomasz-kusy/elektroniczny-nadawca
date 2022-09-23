@@ -1,0 +1,13 @@
+TomaszKusy\En\CreateEnvelopeBufor\CreateEnvelopeBuforAType:
+    properties:
+        bufor:
+            expose: true
+            access_type: public_method
+            serialized_name: bufor
+            accessor:
+                getter: getBufor
+                setter: setBufor
+            xml_list:
+                inline: true
+                entry_name: bufor
+            type: array<TomaszKusy\En\BuforType>

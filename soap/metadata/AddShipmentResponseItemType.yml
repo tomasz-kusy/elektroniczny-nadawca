@@ -1,0 +1,40 @@
+TomaszKusy\En\AddShipmentResponseItemType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        numerTransakcjiOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTransakcjiOdbioru
+            accessor:
+                getter: getNumerTransakcjiOdbioru
+                setter: setNumerTransakcjiOdbioru
+            xml_attribute: true
+            type: string
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            accessor:
+                getter: getError
+                setter: setError
+            xml_list:
+                inline: true
+                entry_name: error
+            type: array<TomaszKusy\En\ErrorType>

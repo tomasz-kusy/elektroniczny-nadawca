@@ -1,0 +1,59 @@
+TomaszKusy\En\PakietType:
+    properties:
+        pakietGuid:
+            expose: true
+            access_type: public_method
+            serialized_name: pakietGuid
+            accessor:
+                getter: getPakietGuid
+                setter: setPakietGuid
+            xml_attribute: true
+            type: string
+        miejsceOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: miejsceOdbioru
+            accessor:
+                getter: getMiejsceOdbioru
+                setter: setMiejsceOdbioru
+            xml_attribute: true
+            type: string
+        sposobNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobNadania
+            accessor:
+                getter: getSposobNadania
+                setter: setSposobNadania
+            xml_attribute: true
+            type: string
+        kierunek:
+            expose: true
+            access_type: public_method
+            serialized_name: kierunek
+            accessor:
+                getter: getKierunek
+                setter: setKierunek
+            type: TomaszKusy\En\KierunekType
+        opakowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: opakowanie
+            accessor:
+                getter: getOpakowanie
+                setter: setOpakowanie
+            xml_list:
+                inline: true
+                entry_name: opakowanie
+            type: array<TomaszKusy\En\OpakowanieType>
+        czynnoscUpustowa:
+            expose: true
+            access_type: public_method
+            serialized_name: czynnoscUpustowa
+            accessor:
+                getter: getCzynnoscUpustowa
+                setter: setCzynnoscUpustowa
+            xml_list:
+                inline: true
+                entry_name: czynnoscUpustowa
+            type: array<string>

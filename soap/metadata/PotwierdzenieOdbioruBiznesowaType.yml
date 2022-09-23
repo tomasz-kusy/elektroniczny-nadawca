@@ -1,0 +1,18 @@
+TomaszKusy\En\PotwierdzenieOdbioruBiznesowaType:
+    properties:
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            type: int
+        sposob:
+            expose: true
+            access_type: public_method
+            serialized_name: sposob
+            accessor:
+                getter: getSposob
+                setter: setSposob
+            type: string

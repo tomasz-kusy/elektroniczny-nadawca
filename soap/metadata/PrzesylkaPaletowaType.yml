@@ -1,0 +1,279 @@
+TomaszKusy\En\PrzesylkaPaletowaType:
+    properties:
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        dataZaladunku:
+            expose: true
+            access_type: public_method
+            serialized_name: dataZaladunku
+            accessor:
+                getter: getDataZaladunku
+                setter: setDataZaladunku
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        dataDostawy:
+            expose: true
+            access_type: public_method
+            serialized_name: dataDostawy
+            accessor:
+                getter: getDataDostawy
+                setter: setDataDostawy
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        iloscZwracanychPaletEUR:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscZwracanychPaletEUR
+            accessor:
+                getter: getIloscZwracanychPaletEUR
+                setter: setIloscZwracanychPaletEUR
+            xml_attribute: true
+            type: int
+        zalaczonaFV:
+            expose: true
+            access_type: public_method
+            serialized_name: zalaczonaFV
+            accessor:
+                getter: getZalaczonaFV
+                setter: setZalaczonaFV
+            xml_attribute: true
+            type: string
+        zalaczonyWZ:
+            expose: true
+            access_type: public_method
+            serialized_name: zalaczonyWZ
+            accessor:
+                getter: getZalaczonyWZ
+                setter: setZalaczonyWZ
+            xml_attribute: true
+            type: string
+        zalaczoneInne:
+            expose: true
+            access_type: public_method
+            serialized_name: zalaczoneInne
+            accessor:
+                getter: getZalaczoneInne
+                setter: setZalaczoneInne
+            xml_attribute: true
+            type: string
+        zwracanaFV:
+            expose: true
+            access_type: public_method
+            serialized_name: zwracanaFV
+            accessor:
+                getter: getZwracanaFV
+                setter: setZwracanaFV
+            xml_attribute: true
+            type: string
+        zwracanyWZ:
+            expose: true
+            access_type: public_method
+            serialized_name: zwracanyWZ
+            accessor:
+                getter: getZwracanyWZ
+                setter: setZwracanyWZ
+            xml_attribute: true
+            type: string
+        zwracaneInne:
+            expose: true
+            access_type: public_method
+            serialized_name: zwracaneInne
+            accessor:
+                getter: getZwracaneInne
+                setter: setZwracaneInne
+            xml_attribute: true
+            type: string
+        powiadomienieNadawcy:
+            expose: true
+            access_type: public_method
+            serialized_name: powiadomienieNadawcy
+            accessor:
+                getter: getPowiadomienieNadawcy
+                setter: setPowiadomienieNadawcy
+            xml_attribute: true
+            type: string
+        powiadomienieOdbiorcy:
+            expose: true
+            access_type: public_method
+            serialized_name: powiadomienieOdbiorcy
+            accessor:
+                getter: getPowiadomienieOdbiorcy
+                setter: setPowiadomienieOdbiorcy
+            xml_attribute: true
+            type: string
+        dostawaWSobote:
+            expose: true
+            access_type: public_method
+            serialized_name: dostawaWSobote
+            accessor:
+                getter: getDostawaWSobote
+                setter: setDostawaWSobote
+            xml_attribute: true
+            type: bool
+        przygotowanieDokumentowPrzewozowych:
+            expose: true
+            access_type: public_method
+            serialized_name: przygotowanieDokumentowPrzewozowych
+            accessor:
+                getter: getPrzygotowanieDokumentowPrzewozowych
+                setter: setPrzygotowanieDokumentowPrzewozowych
+            xml_attribute: true
+            type: bool
+        dostawaSamochodemDedykowanym:
+            expose: true
+            access_type: public_method
+            serialized_name: dostawaSamochodemDedykowanym
+            accessor:
+                getter: getDostawaSamochodemDedykowanym
+                setter: setDostawaSamochodemDedykowanym
+            xml_attribute: true
+            type: bool
+        zmianaDanychAdresowych:
+            expose: true
+            access_type: public_method
+            serialized_name: zmianaDanychAdresowych
+            accessor:
+                getter: getZmianaDanychAdresowych
+                setter: setZmianaDanychAdresowych
+            xml_attribute: true
+            type: bool
+        ustalenieTerminuDostawy:
+            expose: true
+            access_type: public_method
+            serialized_name: ustalenieTerminuDostawy
+            accessor:
+                getter: getUstalenieTerminuDostawy
+                setter: setUstalenieTerminuDostawy
+            xml_attribute: true
+            type: bool
+        samochodZWinda:
+            expose: true
+            access_type: public_method
+            serialized_name: samochodZWinda
+            accessor:
+                getter: getSamochodZWinda
+                setter: setSamochodZWinda
+            xml_attribute: true
+            type: bool
+        zabranieOpakowania:
+            expose: true
+            access_type: public_method
+            serialized_name: zabranieOpakowania
+            accessor:
+                getter: getZabranieOpakowania
+                setter: setZabranieOpakowania
+            xml_attribute: true
+            type: bool
+        wniesienie:
+            expose: true
+            access_type: public_method
+            serialized_name: wniesienie
+            accessor:
+                getter: getWniesienie
+                setter: setWniesienie
+            xml_attribute: true
+            type: bool
+        awizoSMS:
+            expose: true
+            access_type: public_method
+            serialized_name: awizoSMS
+            accessor:
+                getter: getAwizoSMS
+                setter: setAwizoSMS
+            xml_attribute: true
+            type: bool
+        miejsceOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: miejsceOdbioru
+            accessor:
+                getter: getMiejsceOdbioru
+                setter: setMiejsceOdbioru
+            type: TomaszKusy\En\AdresType
+        miejsceDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: miejsceDoreczenia
+            accessor:
+                getter: getMiejsceDoreczenia
+                setter: setMiejsceDoreczenia
+            type: TomaszKusy\En\AdresType
+        paleta:
+            expose: true
+            access_type: public_method
+            serialized_name: paleta
+            accessor:
+                getter: getPaleta
+                setter: setPaleta
+            type: TomaszKusy\En\PaletaType
+        platnik:
+            expose: true
+            access_type: public_method
+            serialized_name: platnik
+            accessor:
+                getter: getPlatnik
+                setter: setPlatnik
+            type: TomaszKusy\En\PlatnikType
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        subPaleta:
+            expose: true
+            access_type: public_method
+            serialized_name: subPaleta
+            accessor:
+                getter: getSubPaleta
+                setter: setSubPaleta
+            xml_list:
+                inline: true
+                entry_name: subPaleta
+            type: array<TomaszKusy\En\SubPrzesylkaPaletowaType>
+        daneSent:
+            expose: true
+            access_type: public_method
+            serialized_name: daneSent
+            accessor:
+                getter: getDaneSent
+                setter: setDaneSent
+            xml_list:
+                inline: true
+                entry_name: daneSent
+            type: array<TomaszKusy\En\DaneSentType>
+        awizacja:
+            expose: true
+            access_type: public_method
+            serialized_name: awizacja
+            accessor:
+                getter: getAwizacja
+                setter: setAwizacja
+            type: TomaszKusy\En\AwizacjaType

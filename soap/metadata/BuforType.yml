@@ -1,0 +1,72 @@
+TomaszKusy\En\BuforType:
+    properties:
+        idBufor:
+            expose: true
+            access_type: public_method
+            serialized_name: idBufor
+            accessor:
+                getter: getIdBufor
+                setter: setIdBufor
+            xml_attribute: true
+            type: int
+        dataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNadania
+            accessor:
+                getter: getDataNadania
+                setter: setDataNadania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        urzadNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadNadania
+            accessor:
+                getter: getUrzadNadania
+                setter: setUrzadNadania
+            xml_attribute: true
+            type: int
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            accessor:
+                getter: getActive
+                setter: setActive
+            xml_attribute: true
+            type: bool
+        opis:
+            expose: true
+            access_type: public_method
+            serialized_name: opis
+            accessor:
+                getter: getOpis
+                setter: setOpis
+            xml_attribute: true
+            type: string
+        aktualizujPlanowanaDateNadaniaPrzesylek:
+            expose: true
+            access_type: public_method
+            serialized_name: aktualizujPlanowanaDateNadaniaPrzesylek
+            accessor:
+                getter: getAktualizujPlanowanaDateNadaniaPrzesylek
+                setter: setAktualizujPlanowanaDateNadaniaPrzesylek
+            xml_attribute: true
+            type: bool
+        profil:
+            expose: true
+            access_type: public_method
+            serialized_name: profil
+            accessor:
+                getter: getProfil
+                setter: setProfil
+            type: TomaszKusy\En\ProfilType
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            type: int

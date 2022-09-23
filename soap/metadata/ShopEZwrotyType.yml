@@ -1,0 +1,219 @@
+TomaszKusy\En\ShopEZwrotyType:
+    properties:
+        idShop:
+            expose: true
+            access_type: public_method
+            serialized_name: idShop
+            accessor:
+                getter: getIdShop
+                setter: setIdShop
+            xml_attribute: true
+            type: int
+        nazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa
+            accessor:
+                getter: getNazwa
+                setter: setNazwa
+            xml_attribute: true
+            type: string
+        nazwa2:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa2
+            accessor:
+                getter: getNazwa2
+                setter: setNazwa2
+            xml_attribute: true
+            type: string
+        przyjaznaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: przyjaznaNazwa
+            accessor:
+                getter: getPrzyjaznaNazwa
+                setter: setPrzyjaznaNazwa
+            xml_attribute: true
+            type: string
+        ulica:
+            expose: true
+            access_type: public_method
+            serialized_name: ulica
+            accessor:
+                getter: getUlica
+                setter: setUlica
+            xml_attribute: true
+            type: string
+        numerDomu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerDomu
+            accessor:
+                getter: getNumerDomu
+                setter: setNumerDomu
+            xml_attribute: true
+            type: string
+        numerLokalu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerLokalu
+            accessor:
+                getter: getNumerLokalu
+                setter: setNumerLokalu
+            xml_attribute: true
+            type: string
+        miejscowosc:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscowosc
+            accessor:
+                getter: getMiejscowosc
+                setter: setMiejscowosc
+            xml_attribute: true
+            type: string
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPocztowy
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            xml_attribute: true
+            type: string
+        mobile:
+            expose: true
+            access_type: public_method
+            serialized_name: mobile
+            accessor:
+                getter: getMobile
+                setter: setMobile
+            xml_attribute: true
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_attribute: true
+            type: string
+        nip:
+            expose: true
+            access_type: public_method
+            serialized_name: nip
+            accessor:
+                getter: getNip
+                setter: setNip
+            xml_attribute: true
+            type: string
+        regon:
+            expose: true
+            access_type: public_method
+            serialized_name: regon
+            accessor:
+                getter: getRegon
+                setter: setRegon
+            xml_attribute: true
+            type: string
+        krs:
+            expose: true
+            access_type: public_method
+            serialized_name: krs
+            accessor:
+                getter: getKrs
+                setter: setKrs
+            xml_attribute: true
+            type: string
+        eZwrotTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: eZwrotTyp
+            accessor:
+                getter: getEZwrotTyp
+                setter: setEZwrotTyp
+            xml_attribute: true
+            type: string
+        wymagalnoscNumeruIdentyfikujacegoPrzesylke:
+            expose: true
+            access_type: public_method
+            serialized_name: wymagalnoscNumeruIdentyfikujacegoPrzesylke
+            accessor:
+                getter: getWymagalnoscNumeruIdentyfikujacegoPrzesylke
+                setter: setWymagalnoscNumeruIdentyfikujacegoPrzesylke
+            xml_attribute: true
+            type: string
+        availableOnWebsite:
+            expose: true
+            access_type: public_method
+            serialized_name: availableOnWebsite
+            accessor:
+                getter: getAvailableOnWebsite
+                setter: setAvailableOnWebsite
+            xml_attribute: true
+            type: bool
+        emailForEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: emailForEZwrot
+            accessor:
+                getter: getEmailForEZwrot
+                setter: setEmailForEZwrot
+            xml_attribute: true
+            type: string
+        paid:
+            expose: true
+            access_type: public_method
+            serialized_name: paid
+            accessor:
+                getter: getPaid
+                setter: setPaid
+            xml_attribute: true
+            type: bool
+        consentValidFor:
+            expose: true
+            access_type: public_method
+            serialized_name: consentValidFor
+            accessor:
+                getter: getConsentValidFor
+                setter: setConsentValidFor
+            xml_attribute: true
+            type: int
+        contractorCost:
+            expose: true
+            access_type: public_method
+            serialized_name: contractorCost
+            accessor:
+                getter: getContractorCost
+                setter: setContractorCost
+            xml_attribute: true
+            type: int
+        infoForClient:
+            expose: true
+            access_type: public_method
+            serialized_name: infoForClient
+            accessor:
+                getter: getInfoForClient
+                setter: setInfoForClient
+            xml_attribute: true
+            type: string
+        eZwrotPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: eZwrotPrzesylki
+            accessor:
+                getter: getEZwrotPrzesylki
+                setter: setEZwrotPrzesylki
+            xml_list:
+                inline: true
+                entry_name: eZwrotPrzesylki
+            type: array<string>
+        eZwrotKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: eZwrotKarta
+            accessor:
+                getter: getEZwrotKarta
+                setter: setEZwrotKarta
+            type: TomaszKusy\En\EZwrotKartaType

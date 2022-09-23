@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetReklamacjeOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getReklamacjeResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetReklamacjeResponse
+                setter: setGetReklamacjeResponse
+            serialized_name: getReklamacjeResponse
+            type: TomaszKusy\En\GetReklamacjeResponse

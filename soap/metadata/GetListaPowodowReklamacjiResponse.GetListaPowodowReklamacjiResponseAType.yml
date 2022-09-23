@@ -1,0 +1,13 @@
+TomaszKusy\En\GetListaPowodowReklamacjiResponse\GetListaPowodowReklamacjiResponseAType:
+    properties:
+        kategoriePowodowReklamacji:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoriePowodowReklamacji
+            accessor:
+                getter: getKategoriePowodowReklamacji
+                setter: setKategoriePowodowReklamacji
+            xml_list:
+                inline: true
+                entry_name: kategoriePowodowReklamacji
+            type: array<TomaszKusy\En\KategoriePowodowReklamacjiType>

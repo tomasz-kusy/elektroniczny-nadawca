@@ -1,0 +1,3 @@
+TomaszKusy\En\CreateProfilResponse:
+    xml_root_name: 'ns-d1b571e9:createProfilResponse'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

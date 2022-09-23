@@ -1,0 +1,3 @@
+TomaszKusy\En\SetAktywnaKartaResponse:
+    xml_root_name: 'ns-d1b571e9:setAktywnaKartaResponse'
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'

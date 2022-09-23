@@ -1,0 +1,57 @@
+TomaszKusy\En\JednostkaOrganizacyjnaType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: int
+        nazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa
+            accessor:
+                getter: getNazwa
+                setter: setNazwa
+            xml_attribute: true
+            type: string
+        opis:
+            expose: true
+            access_type: public_method
+            serialized_name: opis
+            accessor:
+                getter: getOpis
+                setter: setOpis
+            xml_attribute: true
+            type: string
+        mpk:
+            expose: true
+            access_type: public_method
+            serialized_name: mpk
+            accessor:
+                getter: getMpk
+                setter: setMpk
+            xml_attribute: true
+            type: string
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: account
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            xml_list:
+                inline: true
+                entry_name: account
+            type: array<TomaszKusy\En\AccountType>
+        jednostkaNadrzedna:
+            expose: true
+            access_type: public_method
+            serialized_name: jednostkaNadrzedna
+            accessor:
+                getter: getJednostkaNadrzedna
+                setter: setJednostkaNadrzedna
+            type: TomaszKusy\En\JednostkaOrganizacyjnaType

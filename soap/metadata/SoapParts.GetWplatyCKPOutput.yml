@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetWplatyCKPOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getWplatyCKPResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetWplatyCKPResponse
+                setter: setGetWplatyCKPResponse
+            serialized_name: getWplatyCKPResponse
+            type: TomaszKusy\En\GetWplatyCKPResponse

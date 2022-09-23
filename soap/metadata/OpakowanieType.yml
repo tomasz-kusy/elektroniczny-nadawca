@@ -1,0 +1,47 @@
+TomaszKusy\En\OpakowanieType:
+    properties:
+        opakowanieGuid:
+            expose: true
+            access_type: public_method
+            serialized_name: opakowanieGuid
+            accessor:
+                getter: getOpakowanieGuid
+                setter: setOpakowanieGuid
+            xml_attribute: true
+            type: string
+        typ:
+            expose: true
+            access_type: public_method
+            serialized_name: typ
+            accessor:
+                getter: getTyp
+                setter: setTyp
+            xml_attribute: true
+            type: string
+        sygnatura:
+            expose: true
+            access_type: public_method
+            serialized_name: sygnatura
+            accessor:
+                getter: getSygnatura
+                setter: setSygnatura
+            xml_attribute: true
+            type: string
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            xml_attribute: true
+            type: int
+        numerOpakowaniaZbiorczego:
+            expose: true
+            access_type: public_method
+            serialized_name: numerOpakowaniaZbiorczego
+            accessor:
+                getter: getNumerOpakowaniaZbiorczego
+                setter: setNumerOpakowaniaZbiorczego
+            xml_attribute: true
+            type: string

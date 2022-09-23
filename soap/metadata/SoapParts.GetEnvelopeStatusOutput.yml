@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEnvelopeStatusOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEnvelopeStatusResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEnvelopeStatusResponse
+                setter: setGetEnvelopeStatusResponse
+            serialized_name: getEnvelopeStatusResponse
+            type: TomaszKusy\En\GetEnvelopeStatusResponse

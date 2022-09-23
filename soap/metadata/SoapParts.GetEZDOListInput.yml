@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEZDOListInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEZDOList:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEZDOList
+                setter: setGetEZDOList
+            serialized_name: getEZDOList
+            type: TomaszKusy\En\GetEZDOList

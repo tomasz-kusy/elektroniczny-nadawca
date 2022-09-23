@@ -1,0 +1,26 @@
+TomaszKusy\En\MarketingowaZAdresemType:
+    properties:
+        adres:
+            expose: true
+            access_type: public_method
+            serialized_name: adres
+            accessor:
+                getter: getAdres
+                setter: setAdres
+            type: TomaszKusy\En\AdresType
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            type: int
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            type: string

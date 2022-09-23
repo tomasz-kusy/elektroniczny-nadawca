@@ -1,0 +1,180 @@
+TomaszKusy\En\PlacowkaPocztowaType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: int
+        prefixNazwy:
+            expose: true
+            access_type: public_method
+            serialized_name: prefixNazwy
+            accessor:
+                getter: getPrefixNazwy
+                setter: setPrefixNazwy
+            xml_attribute: true
+            type: string
+        nazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa
+            accessor:
+                getter: getNazwa
+                setter: setNazwa
+            xml_attribute: true
+            type: string
+        wojewodztwo:
+            expose: true
+            access_type: public_method
+            serialized_name: wojewodztwo
+            accessor:
+                getter: getWojewodztwo
+                setter: setWojewodztwo
+            xml_attribute: true
+            type: string
+        powiat:
+            expose: true
+            access_type: public_method
+            serialized_name: powiat
+            accessor:
+                getter: getPowiat
+                setter: setPowiat
+            xml_attribute: true
+            type: string
+        miejsce:
+            expose: true
+            access_type: public_method
+            serialized_name: miejsce
+            accessor:
+                getter: getMiejsce
+                setter: setMiejsce
+            xml_attribute: true
+            type: string
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPocztowy
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            xml_attribute: true
+            type: string
+        miejscowosc:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscowosc
+            accessor:
+                getter: getMiejscowosc
+                setter: setMiejscowosc
+            xml_attribute: true
+            type: string
+        ulica:
+            expose: true
+            access_type: public_method
+            serialized_name: ulica
+            accessor:
+                getter: getUlica
+                setter: setUlica
+            xml_attribute: true
+            type: string
+        numerDomu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerDomu
+            accessor:
+                getter: getNumerDomu
+                setter: setNumerDomu
+            xml_attribute: true
+            type: string
+        numerLokalu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerLokalu
+            accessor:
+                getter: getNumerLokalu
+                setter: setNumerLokalu
+            xml_attribute: true
+            type: string
+        nazwaWydruk:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwaWydruk
+            accessor:
+                getter: getNazwaWydruk
+                setter: setNazwaWydruk
+            xml_attribute: true
+            type: string
+        punktWydaniaEPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: punktWydaniaEPrzesylki
+            accessor:
+                getter: getPunktWydaniaEPrzesylki
+                setter: setPunktWydaniaEPrzesylki
+            xml_attribute: true
+            type: bool
+        powiadomienieSMS:
+            expose: true
+            access_type: public_method
+            serialized_name: powiadomienieSMS
+            accessor:
+                getter: getPowiadomienieSMS
+                setter: setPowiadomienieSMS
+            xml_attribute: true
+            type: bool
+        punktWydaniaPrzesylkiBiznesowejPlus:
+            expose: true
+            access_type: public_method
+            serialized_name: punktWydaniaPrzesylkiBiznesowejPlus
+            accessor:
+                getter: getPunktWydaniaPrzesylkiBiznesowejPlus
+                setter: setPunktWydaniaPrzesylkiBiznesowejPlus
+            xml_attribute: true
+            type: bool
+        punktWydaniaPrzesylkiBiznesowej:
+            expose: true
+            access_type: public_method
+            serialized_name: punktWydaniaPrzesylkiBiznesowej
+            accessor:
+                getter: getPunktWydaniaPrzesylkiBiznesowej
+                setter: setPunktWydaniaPrzesylkiBiznesowej
+            xml_attribute: true
+            type: bool
+        siecPlacowek:
+            expose: true
+            access_type: public_method
+            serialized_name: siecPlacowek
+            accessor:
+                getter: getSiecPlacowek
+                setter: setSiecPlacowek
+            xml_attribute: true
+            type: string
+        idZPO:
+            expose: true
+            access_type: public_method
+            serialized_name: idZPO
+            accessor:
+                getter: getIdZPO
+                setter: setIdZPO
+            xml_attribute: true
+            type: string
+        lokalizacjaGeograficzna:
+            expose: true
+            access_type: public_method
+            serialized_name: lokalizacjaGeograficzna
+            accessor:
+                getter: getLokalizacjaGeograficzna
+                setter: setLokalizacjaGeograficzna
+            type: TomaszKusy\En\LokalizacjaGeograficznaType
+        deliveryPath:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryPath
+            accessor:
+                getter: getDeliveryPath
+                setter: setDeliveryPath
+            type: TomaszKusy\En\DeliveryPathType

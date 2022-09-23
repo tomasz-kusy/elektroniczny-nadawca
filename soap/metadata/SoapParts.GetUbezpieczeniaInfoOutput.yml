@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetUbezpieczeniaInfoOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getUbezpieczeniaInfoResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetUbezpieczeniaInfoResponse
+                setter: setGetUbezpieczeniaInfoResponse
+            serialized_name: getUbezpieczeniaInfoResponse
+            type: TomaszKusy\En\GetUbezpieczeniaInfoResponse

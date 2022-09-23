@@ -1,0 +1,21 @@
+TomaszKusy\En\AddShipment\AddShipmentAType:
+    properties:
+        przesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: przesylki
+            accessor:
+                getter: getPrzesylki
+                setter: setPrzesylki
+            xml_list:
+                inline: true
+                entry_name: przesylki
+            type: array<TomaszKusy\En\PrzesylkaType>
+        idBufor:
+            expose: true
+            access_type: public_method
+            serialized_name: idBufor
+            accessor:
+                getter: getIdBufor
+                setter: setIdBufor
+            type: int

@@ -1,0 +1,24 @@
+TomaszKusy\En\CreateEnvelopeBuforResponse\CreateEnvelopeBuforResponseAType:
+    properties:
+        createdBufor:
+            expose: true
+            access_type: public_method
+            serialized_name: createdBufor
+            accessor:
+                getter: getCreatedBufor
+                setter: setCreatedBufor
+            xml_list:
+                inline: true
+                entry_name: createdBufor
+            type: array<TomaszKusy\En\BuforType>
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            accessor:
+                getter: getError
+                setter: setError
+            xml_list:
+                inline: true
+                entry_name: error
+            type: array<TomaszKusy\En\ErrorType>

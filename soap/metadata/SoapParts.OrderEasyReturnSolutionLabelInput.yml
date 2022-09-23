@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\OrderEasyReturnSolutionLabelInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        orderEasyReturnSolutionLabel:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getOrderEasyReturnSolutionLabel
+                setter: setOrderEasyReturnSolutionLabel
+            serialized_name: orderEasyReturnSolutionLabel
+            type: TomaszKusy\En\OrderEasyReturnSolutionLabel

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\AddShipmentOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        addShipmentResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getAddShipmentResponse
+                setter: setAddShipmentResponse
+            serialized_name: addShipmentResponse
+            type: TomaszKusy\En\AddShipmentResponse

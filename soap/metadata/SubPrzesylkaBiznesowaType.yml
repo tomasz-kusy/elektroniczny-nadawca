@@ -1,0 +1,55 @@
+TomaszKusy\En\SubPrzesylkaBiznesowaType:
+    properties:
+        numerNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadania
+            accessor:
+                getter: getNumerNadania
+                setter: setNumerNadania
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            xml_attribute: true
+            type: string
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType

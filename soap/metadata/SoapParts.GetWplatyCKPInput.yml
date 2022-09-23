@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetWplatyCKPInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getWplatyCKP:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetWplatyCKP
+                setter: setGetWplatyCKP
+            serialized_name: getWplatyCKP
+            type: TomaszKusy\En\GetWplatyCKP

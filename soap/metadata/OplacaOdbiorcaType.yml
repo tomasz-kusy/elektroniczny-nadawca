@@ -1,0 +1,18 @@
+TomaszKusy\En\OplacaOdbiorcaType:
+    properties:
+        typ:
+            expose: true
+            access_type: public_method
+            serialized_name: typ
+            accessor:
+                getter: getTyp
+                setter: setTyp
+            type: string
+        karta:
+            expose: true
+            access_type: public_method
+            serialized_name: karta
+            accessor:
+                getter: getKarta
+                setter: setKarta
+            type: TomaszKusy\En\OplacaOdbiorcaKartaType

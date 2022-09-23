@@ -1,0 +1,83 @@
+TomaszKusy\En\InfoPaczkaKorzysciType:
+    properties:
+        iloscStandardDo5kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscStandardDo5kg
+            accessor:
+                getter: getIloscStandardDo5kg
+                setter: setIloscStandardDo5kg
+            xml_attribute: true
+            type: int
+        iloscPobranieDo5kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPobranieDo5kg
+            accessor:
+                getter: getIloscPobranieDo5kg
+                setter: setIloscPobranieDo5kg
+            xml_attribute: true
+            type: int
+        iloscOdbiorWPunkcieDo5kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscOdbiorWPunkcieDo5kg
+            accessor:
+                getter: getIloscOdbiorWPunkcieDo5kg
+                setter: setIloscOdbiorWPunkcieDo5kg
+            xml_attribute: true
+            type: int
+        iloscPobranieOdbiorWPunkcieDo5kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPobranieOdbiorWPunkcieDo5kg
+            accessor:
+                getter: getIloscPobranieOdbiorWPunkcieDo5kg
+                setter: setIloscPobranieOdbiorWPunkcieDo5kg
+            xml_attribute: true
+            type: int
+        iloscStandardDo30kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscStandardDo30kg
+            accessor:
+                getter: getIloscStandardDo30kg
+                setter: setIloscStandardDo30kg
+            xml_attribute: true
+            type: int
+        iloscPobranieDo30kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPobranieDo30kg
+            accessor:
+                getter: getIloscPobranieDo30kg
+                setter: setIloscPobranieDo30kg
+            xml_attribute: true
+            type: int
+        iloscOdbiorWPunkcieDo30kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscOdbiorWPunkcieDo30kg
+            accessor:
+                getter: getIloscOdbiorWPunkcieDo30kg
+                setter: setIloscOdbiorWPunkcieDo30kg
+            xml_attribute: true
+            type: int
+        iloscPobranieOdbiorWPunkcieDo30kg:
+            expose: true
+            access_type: public_method
+            serialized_name: iloscPobranieOdbiorWPunkcieDo30kg
+            accessor:
+                getter: getIloscPobranieOdbiorWPunkcieDo30kg
+                setter: setIloscPobranieOdbiorWPunkcieDo30kg
+            xml_attribute: true
+            type: int
+        dataWaznosciUmowy:
+            expose: true
+            access_type: public_method
+            serialized_name: dataWaznosciUmowy
+            accessor:
+                getter: getDataWaznosciUmowy
+                setter: setDataWaznosciUmowy
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

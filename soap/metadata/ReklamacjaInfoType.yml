@@ -1,0 +1,18 @@
+TomaszKusy\En\ReklamacjaInfoType:
+    properties:
+        idReklamacja:
+            expose: true
+            access_type: public_method
+            serialized_name: idReklamacja
+            accessor:
+                getter: getIdReklamacja
+                setter: setIdReklamacja
+            type: string
+        guidPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: guidPrzesylki
+            accessor:
+                getter: getGuidPrzesylki
+                setter: setGuidPrzesylki
+            type: string

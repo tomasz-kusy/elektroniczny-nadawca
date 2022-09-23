@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetProfilListInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getProfilList:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetProfilList
+                setter: setGetProfilList
+            serialized_name: getProfilList
+            type: TomaszKusy\En\GetProfilList

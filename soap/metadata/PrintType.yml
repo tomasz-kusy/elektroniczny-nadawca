@@ -1,0 +1,34 @@
+TomaszKusy\En\PrintType:
+    properties:
+        kind:
+            expose: true
+            access_type: public_method
+            serialized_name: kind
+            accessor:
+                getter: getKind
+                setter: setKind
+            type: string
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: string
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        resolution:
+            expose: true
+            access_type: public_method
+            serialized_name: resolution
+            accessor:
+                getter: getResolution
+                setter: setResolution
+            type: string

@@ -1,0 +1,29 @@
+TomaszKusy\En\OdbiorPrzesylkiOdNadawcyType:
+    properties:
+        wSobote:
+            expose: true
+            access_type: public_method
+            serialized_name: wSobote
+            accessor:
+                getter: getWSobote
+                setter: setWSobote
+            xml_attribute: true
+            type: bool
+        wNiedzieleLubSwieto:
+            expose: true
+            access_type: public_method
+            serialized_name: wNiedzieleLubSwieto
+            accessor:
+                getter: getWNiedzieleLubSwieto
+                setter: setWNiedzieleLubSwieto
+            xml_attribute: true
+            type: bool
+        wGodzinachOd20Do7:
+            expose: true
+            access_type: public_method
+            serialized_name: wGodzinachOd20Do7
+            accessor:
+                getter: getWGodzinachOd20Do7
+                setter: setWGodzinachOd20Do7
+            xml_attribute: true
+            type: bool

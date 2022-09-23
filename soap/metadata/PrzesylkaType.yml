@@ -1,0 +1,63 @@
+TomaszKusy\En\PrzesylkaType:
+    properties:
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        pakietGuid:
+            expose: true
+            access_type: public_method
+            serialized_name: pakietGuid
+            accessor:
+                getter: getPakietGuid
+                setter: setPakietGuid
+            xml_attribute: true
+            type: string
+        opakowanieGuid:
+            expose: true
+            access_type: public_method
+            serialized_name: opakowanieGuid
+            accessor:
+                getter: getOpakowanieGuid
+                setter: setOpakowanieGuid
+            xml_attribute: true
+            type: string
+        opis:
+            expose: true
+            access_type: public_method
+            serialized_name: opis
+            accessor:
+                getter: getOpis
+                setter: setOpis
+            xml_attribute: true
+            type: string
+        planowanaDataNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: planowanaDataNadania
+            accessor:
+                getter: getPlanowanaDataNadania
+                setter: setPlanowanaDataNadania
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        oplacaOdbiorca:
+            expose: true
+            access_type: public_method
+            serialized_name: oplacaOdbiorca
+            accessor:
+                getter: getOplacaOdbiorca
+                setter: setOplacaOdbiorca
+            type: TomaszKusy\En\OplacaOdbiorcaType
+        mpk:
+            expose: true
+            access_type: public_method
+            serialized_name: mpk
+            accessor:
+                getter: getMpk
+                setter: setMpk
+            type: string

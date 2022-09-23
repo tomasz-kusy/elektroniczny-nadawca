@@ -1,0 +1,11 @@
+TomaszKusy\En\ListBiznesowyType:
+    properties:
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int

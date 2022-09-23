@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetOutboxBookOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getOutboxBookResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetOutboxBookResponse
+                setter: setGetOutboxBookResponse
+            serialized_name: getOutboxBookResponse
+            type: TomaszKusy\En\GetOutboxBookResponse

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\SendEnvelopeInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        sendEnvelope:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getSendEnvelope
+                setter: setSendEnvelope
+            serialized_name: sendEnvelope
+            type: TomaszKusy\En\SendEnvelope

@@ -1,0 +1,96 @@
+TomaszKusy\En\DeklaracjaCelna2Type:
+    properties:
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            type: string
+        zawartoscPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartoscPrzesylki
+            accessor:
+                getter: getZawartoscPrzesylki
+                setter: setZawartoscPrzesylki
+            type: string
+        dokumentyTowarzyszace:
+            expose: true
+            access_type: public_method
+            serialized_name: dokumentyTowarzyszace
+            accessor:
+                getter: getDokumentyTowarzyszace
+                setter: setDokumentyTowarzyszace
+            xml_list:
+                inline: true
+                entry_name: dokumentyTowarzyszace
+            type: array<TomaszKusy\En\DokumentyTowarzyszaceType>
+        wyjasnienie:
+            expose: true
+            access_type: public_method
+            serialized_name: wyjasnienie
+            accessor:
+                getter: getWyjasnienie
+                setter: setWyjasnienie
+            type: string
+        oplatyPocztowe:
+            expose: true
+            access_type: public_method
+            serialized_name: oplatyPocztowe
+            accessor:
+                getter: getOplatyPocztowe
+                setter: setOplatyPocztowe
+            type: string
+        uwagi:
+            expose: true
+            access_type: public_method
+            serialized_name: uwagi
+            accessor:
+                getter: getUwagi
+                setter: setUwagi
+            type: string
+        numerReferencyjnyImportera:
+            expose: true
+            access_type: public_method
+            serialized_name: numerReferencyjnyImportera
+            accessor:
+                getter: getNumerReferencyjnyImportera
+                setter: setNumerReferencyjnyImportera
+            type: string
+        numerTelefonuImportera:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTelefonuImportera
+            accessor:
+                getter: getNumerTelefonuImportera
+                setter: setNumerTelefonuImportera
+            type: string
+        walutaKodISO:
+            expose: true
+            access_type: public_method
+            serialized_name: walutaKodISO
+            accessor:
+                getter: getWalutaKodISO
+                setter: setWalutaKodISO
+            type: string
+        szczegolyZawartosciPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: szczegolyZawartosciPrzesylki
+            accessor:
+                getter: getSzczegolyZawartosciPrzesylki
+                setter: setSzczegolyZawartosciPrzesylki
+            xml_list:
+                inline: true
+                entry_name: szczegolyZawartosciPrzesylki
+            type: array<TomaszKusy\En\SzczegolyZawartosciPrzesylkiZagranicznejType>
+        numerReferencyjnyCelny:
+            expose: true
+            access_type: public_method
+            serialized_name: numerReferencyjnyCelny
+            accessor:
+                getter: getNumerReferencyjnyCelny
+                setter: setNumerReferencyjnyCelny
+            type: string

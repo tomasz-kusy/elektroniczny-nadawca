@@ -1,0 +1,18 @@
+TomaszKusy\En\SposobDoreczeniaType:
+    properties:
+        kod:
+            expose: true
+            access_type: public_method
+            serialized_name: kod
+            accessor:
+                getter: getKod
+                setter: setKod
+            type: string
+        identyfikatorPunktuOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: identyfikatorPunktuOdbioru
+            accessor:
+                getter: getIdentyfikatorPunktuOdbioru
+                setter: setIdentyfikatorPunktuOdbioru
+            type: string

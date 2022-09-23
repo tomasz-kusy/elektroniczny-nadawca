@@ -1,0 +1,61 @@
+TomaszKusy\En\KartaType:
+    properties:
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            xml_attribute: true
+            type: int
+        opis:
+            expose: true
+            access_type: public_method
+            serialized_name: opis
+            accessor:
+                getter: getOpis
+                setter: setOpis
+            xml_attribute: true
+            type: string
+        aktywna:
+            expose: true
+            access_type: public_method
+            serialized_name: aktywna
+            accessor:
+                getter: getAktywna
+                setter: setAktywna
+            xml_attribute: true
+            type: bool
+        typ:
+            expose: true
+            access_type: public_method
+            serialized_name: typ
+            accessor:
+                getter: getTyp
+                setter: setTyp
+            xml_attribute: true
+            type: int
+        produktyInKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: produktyInKarta
+            accessor:
+                getter: getProduktyInKarta
+                setter: setProduktyInKarta
+            type: array<TomaszKusy\En\ProduktInKartaType>
+            xml_list:
+                inline: false
+                entry_name: produktInKarta
+                skip_when_empty: true
+        adresKorespondencyjny:
+            expose: true
+            access_type: public_method
+            serialized_name: adresKorespondencyjny
+            accessor:
+                getter: getAdresKorespondencyjny
+                setter: setAdresKorespondencyjny
+            xml_list:
+                inline: true
+                entry_name: adresKorespondencyjny
+            type: array<TomaszKusy\En\AdresKorespondencyjnyType>

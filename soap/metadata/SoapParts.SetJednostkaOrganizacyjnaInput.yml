@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\SetJednostkaOrganizacyjnaInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        setJednostkaOrganizacyjna:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getSetJednostkaOrganizacyjna
+                setter: setSetJednostkaOrganizacyjna
+            serialized_name: setJednostkaOrganizacyjna
+            type: TomaszKusy\En\SetJednostkaOrganizacyjna

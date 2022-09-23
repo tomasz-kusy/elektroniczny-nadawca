@@ -1,0 +1,157 @@
+TomaszKusy\En\PocztexKrajowyType:
+    properties:
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        terminRodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: terminRodzaj
+            accessor:
+                getter: getTerminRodzaj
+                setter: setTerminRodzaj
+            xml_attribute: true
+            type: string
+        kopertaFirmowa:
+            expose: true
+            access_type: public_method
+            serialized_name: kopertaFirmowa
+            accessor:
+                getter: getKopertaFirmowa
+                setter: setKopertaFirmowa
+            xml_attribute: true
+            type: bool
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        ponadgabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: ponadgabaryt
+            accessor:
+                getter: getPonadgabaryt
+                setter: setPonadgabaryt
+            xml_attribute: true
+            type: bool
+        uiszczaOplate:
+            expose: true
+            access_type: public_method
+            serialized_name: uiszczaOplate
+            accessor:
+                getter: getUiszczaOplate
+                setter: setUiszczaOplate
+            xml_attribute: true
+            type: string
+        odleglosc:
+            expose: true
+            access_type: public_method
+            serialized_name: odleglosc
+            accessor:
+                getter: getOdleglosc
+                setter: setOdleglosc
+            xml_attribute: true
+            type: int
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            xml_attribute: true
+            type: string
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            xml_attribute: true
+            type: bool
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        odbiorPrzesylkiOdNadawcy:
+            expose: true
+            access_type: public_method
+            serialized_name: odbiorPrzesylkiOdNadawcy
+            accessor:
+                getter: getOdbiorPrzesylkiOdNadawcy
+                setter: setOdbiorPrzesylkiOdNadawcy
+            type: TomaszKusy\En\OdbiorPrzesylkiOdNadawcyType
+        doreczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenie
+            accessor:
+                getter: getDoreczenie
+                setter: setDoreczenie
+            type: TomaszKusy\En\DoreczenieType
+        zwrotDokumentow:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDokumentow
+            accessor:
+                getter: getZwrotDokumentow
+                setter: setZwrotDokumentow
+            type: TomaszKusy\En\ZwrotDokumentowType
+        potwierdzenieOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieOdbioru
+            accessor:
+                getter: getPotwierdzenieOdbioru
+                setter: setPotwierdzenieOdbioru
+            type: TomaszKusy\En\PotwierdzenieOdbioruType
+        potwierdzenieDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieDoreczenia
+            accessor:
+                getter: getPotwierdzenieDoreczenia
+                setter: setPotwierdzenieDoreczenia
+            type: TomaszKusy\En\PotwierdzenieDoreczeniaType
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType

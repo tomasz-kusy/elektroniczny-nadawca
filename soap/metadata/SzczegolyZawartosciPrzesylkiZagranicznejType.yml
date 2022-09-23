@@ -1,0 +1,50 @@
+TomaszKusy\En\SzczegolyZawartosciPrzesylkiZagranicznejType:
+    properties:
+        okreslenieZawartosci:
+            expose: true
+            access_type: public_method
+            serialized_name: okreslenieZawartosci
+            accessor:
+                getter: getOkreslenieZawartosci
+                setter: setOkreslenieZawartosci
+            type: string
+        ilosc:
+            expose: true
+            access_type: public_method
+            serialized_name: ilosc
+            accessor:
+                getter: getIlosc
+                setter: setIlosc
+            type: int
+        masaNetto:
+            expose: true
+            access_type: public_method
+            serialized_name: masaNetto
+            accessor:
+                getter: getMasaNetto
+                setter: setMasaNetto
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            type: float
+        numerTaryfyHs:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTaryfyHs
+            accessor:
+                getter: getNumerTaryfyHs
+                setter: setNumerTaryfyHs
+            type: string
+        krajPochodzeniaKodAlfa2:
+            expose: true
+            access_type: public_method
+            serialized_name: krajPochodzeniaKodAlfa2
+            accessor:
+                getter: getKrajPochodzeniaKodAlfa2
+                setter: setKrajPochodzeniaKodAlfa2
+            type: string

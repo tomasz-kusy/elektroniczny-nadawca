@@ -1,0 +1,13 @@
+TomaszKusy\En\GetUrzedyWydajaceEPrzesylkiResponse\GetUrzedyWydajaceEPrzesylkiResponseAType:
+    properties:
+        urzadWydaniaEPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadWydaniaEPrzesylki
+            accessor:
+                getter: getUrzadWydaniaEPrzesylki
+                setter: setUrzadWydaniaEPrzesylki
+            xml_list:
+                inline: true
+                entry_name: urzadWydaniaEPrzesylki
+            type: array<TomaszKusy\En\UrzadWydaniaEPrzesylkiType>

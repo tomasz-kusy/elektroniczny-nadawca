@@ -1,0 +1,58 @@
+TomaszKusy\En\ZamowKuriera\ZamowKurieraAType:
+    properties:
+        miejsceOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: miejsceOdbioru
+            accessor:
+                getter: getMiejsceOdbioru
+                setter: setMiejsceOdbioru
+            type: TomaszKusy\En\AdresType
+        nadawca:
+            expose: true
+            access_type: public_method
+            serialized_name: nadawca
+            accessor:
+                getter: getNadawca
+                setter: setNadawca
+            type: TomaszKusy\En\AdresType
+        oczekiwanaDataOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwanaDataOdbioru
+            accessor:
+                getter: getOczekiwanaDataOdbioru
+                setter: setOczekiwanaDataOdbioru
+            type: string
+        oczekiwanaGodzinaOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: oczekiwanaGodzinaOdbioru
+            accessor:
+                getter: getOczekiwanaGodzinaOdbioru
+                setter: setOczekiwanaGodzinaOdbioru
+            type: string
+        szacowanaIloscPrzeslek:
+            expose: true
+            access_type: public_method
+            serialized_name: szacowanaIloscPrzeslek
+            accessor:
+                getter: getSzacowanaIloscPrzeslek
+                setter: setSzacowanaIloscPrzeslek
+            type: string
+        szacowanaLacznaMasaPrzesylek:
+            expose: true
+            access_type: public_method
+            serialized_name: szacowanaLacznaMasaPrzesylek
+            accessor:
+                getter: getSzacowanaLacznaMasaPrzesylek
+                setter: setSzacowanaLacznaMasaPrzesylek
+            type: string
+        potwierdzenieZamowieniaEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieZamowieniaEmail
+            accessor:
+                getter: getPotwierdzenieZamowieniaEmail
+                setter: setPotwierdzenieZamowieniaEmail
+            type: string

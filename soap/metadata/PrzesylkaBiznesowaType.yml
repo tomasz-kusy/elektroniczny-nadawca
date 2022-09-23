@@ -1,0 +1,139 @@
+TomaszKusy\En\PrzesylkaBiznesowaType:
+    properties:
+        zasadySpecjalne:
+            expose: true
+            access_type: public_method
+            serialized_name: zasadySpecjalne
+            accessor:
+                getter: getZasadySpecjalne
+                setter: setZasadySpecjalne
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        gabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: gabaryt
+            accessor:
+                getter: getGabaryt
+                setter: setGabaryt
+            xml_attribute: true
+            type: string
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        numerTransakcjiOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTransakcjiOdbioru
+            accessor:
+                getter: getNumerTransakcjiOdbioru
+                setter: setNumerTransakcjiOdbioru
+            xml_attribute: true
+            type: string
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        urzadWydaniaEPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadWydaniaEPrzesylki
+            accessor:
+                getter: getUrzadWydaniaEPrzesylki
+                setter: setUrzadWydaniaEPrzesylki
+            type: TomaszKusy\En\UrzadWydaniaEPrzesylkiType
+        subPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: subPrzesylka
+            accessor:
+                getter: getSubPrzesylka
+                setter: setSubPrzesylka
+            xml_list:
+                inline: true
+                entry_name: subPrzesylka
+            type: array<TomaszKusy\En\SubPrzesylkaBiznesowaType>
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        epo:
+            expose: true
+            access_type: public_method
+            serialized_name: epo
+            accessor:
+                getter: getEpo
+                setter: setEpo
+            type: TomaszKusy\En\EPOType
+        adresDlaZwrotu:
+            expose: true
+            access_type: public_method
+            serialized_name: adresDlaZwrotu
+            accessor:
+                getter: getAdresDlaZwrotu
+                setter: setAdresDlaZwrotu
+            type: TomaszKusy\En\AdresType
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            type: bool
+        potwierdzenieOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieOdbioru
+            accessor:
+                getter: getPotwierdzenieOdbioru
+                setter: setPotwierdzenieOdbioru
+            type: TomaszKusy\En\PotwierdzenieOdbioruBiznesowaType
+        doreczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenie
+            accessor:
+                getter: getDoreczenie
+                setter: setDoreczenie
+            type: TomaszKusy\En\DoreczenieBiznesowaType
+        zwrotDokumentow:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDokumentow
+            accessor:
+                getter: getZwrotDokumentow
+                setter: setZwrotDokumentow
+            type: TomaszKusy\En\ZwrotDokumentowBiznesowaType

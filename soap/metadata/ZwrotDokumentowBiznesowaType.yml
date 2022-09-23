@@ -1,0 +1,18 @@
+TomaszKusy\En\ZwrotDokumentowBiznesowaType:
+    properties:
+        rodzaj:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzaj
+            accessor:
+                getter: getRodzaj
+                setter: setRodzaj
+            type: string
+        idDokumentyZwrotneAdresy:
+            expose: true
+            access_type: public_method
+            serialized_name: idDokumentyZwrotneAdresy
+            accessor:
+                getter: getIdDokumentyZwrotneAdresy
+                setter: setIdDokumentyZwrotneAdresy
+            type: int

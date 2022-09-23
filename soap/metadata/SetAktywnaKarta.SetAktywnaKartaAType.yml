@@ -1,0 +1,10 @@
+TomaszKusy\En\SetAktywnaKarta\SetAktywnaKartaAType:
+    properties:
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            type: int

@@ -1,0 +1,38 @@
+TomaszKusy\En\PaletaType:
+    properties:
+        rodzajPalety:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzajPalety
+            accessor:
+                getter: getRodzajPalety
+                setter: setRodzajPalety
+            xml_attribute: true
+            type: string
+        szerokosc:
+            expose: true
+            access_type: public_method
+            serialized_name: szerokosc
+            accessor:
+                getter: getSzerokosc
+                setter: setSzerokosc
+            xml_attribute: true
+            type: int
+        dlugosc:
+            expose: true
+            access_type: public_method
+            serialized_name: dlugosc
+            accessor:
+                getter: getDlugosc
+                setter: setDlugosc
+            xml_attribute: true
+            type: string
+        wysokosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wysokosc
+            accessor:
+                getter: getWysokosc
+                setter: setWysokosc
+            xml_attribute: true
+            type: string

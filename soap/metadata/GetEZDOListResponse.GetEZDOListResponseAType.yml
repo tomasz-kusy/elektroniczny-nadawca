@@ -1,0 +1,13 @@
+TomaszKusy\En\GetEZDOListResponse\GetEZDOListResponseAType:
+    properties:
+        eZDOPakiet:
+            expose: true
+            access_type: public_method
+            serialized_name: EZDOPakiet
+            accessor:
+                getter: getEZDOPakiet
+                setter: setEZDOPakiet
+            xml_list:
+                inline: true
+                entry_name: EZDOPakiet
+            type: array<TomaszKusy\En\EZDOPakietType>

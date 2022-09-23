@@ -1,0 +1,106 @@
+TomaszKusy\En\AddressType:
+    properties:
+        firstNameOrCompanyName:
+            expose: true
+            access_type: public_method
+            serialized_name: firstNameOrCompanyName
+            accessor:
+                getter: getFirstNameOrCompanyName
+                setter: setFirstNameOrCompanyName
+            type: string
+        lastNameOrCompanyNameContinued:
+            expose: true
+            access_type: public_method
+            serialized_name: lastNameOrCompanyNameContinued
+            accessor:
+                getter: getLastNameOrCompanyNameContinued
+                setter: setLastNameOrCompanyNameContinued
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: street
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string
+        houseNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: houseNumber
+            accessor:
+                getter: getHouseNumber
+                setter: setHouseNumber
+            type: string
+        apartamentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: apartamentNumber
+            accessor:
+                getter: getApartamentNumber
+                setter: setApartamentNumber
+            type: string
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: city
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        zipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: zipCode
+            accessor:
+                getter: getZipCode
+                setter: setZipCode
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        mobile:
+            expose: true
+            access_type: public_method
+            serialized_name: mobile
+            accessor:
+                getter: getMobile
+                setter: setMobile
+            type: string
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: telephone
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: string
+        contactPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: 'contactPerson '
+            accessor:
+                getter: getContactPerson
+                setter: setContactPerson
+            type: string
+        nip:
+            expose: true
+            access_type: public_method
+            serialized_name: nip
+            accessor:
+                getter: getNip
+                setter: setNip
+            type: string

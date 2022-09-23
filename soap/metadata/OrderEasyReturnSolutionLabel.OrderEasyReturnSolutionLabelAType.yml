@@ -1,0 +1,50 @@
+TomaszKusy\En\OrderEasyReturnSolutionLabel\OrderEasyReturnSolutionLabelAType:
+    properties:
+        senderAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: senderAddress
+            accessor:
+                getter: getSenderAddress
+                setter: setSenderAddress
+            type: TomaszKusy\En\AddressType
+        recipientAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: recipientAddress
+            accessor:
+                getter: getRecipientAddress
+                setter: setRecipientAddress
+            type: TomaszKusy\En\AddressType
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: int
+        customsDeclaration:
+            expose: true
+            access_type: public_method
+            serialized_name: customsDeclaration
+            accessor:
+                getter: getCustomsDeclaration
+                setter: setCustomsDeclaration
+            type: TomaszKusy\En\CustomsDeclarationType
+        deliveryMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryMethod
+            accessor:
+                getter: getDeliveryMethod
+                setter: setDeliveryMethod
+            type: TomaszKusy\En\DeliveryMethodType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string

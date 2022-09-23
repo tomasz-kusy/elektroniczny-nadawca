@@ -1,0 +1,40 @@
+TomaszKusy\En\KierunekType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: int
+        opis:
+            expose: true
+            access_type: public_method
+            serialized_name: opis
+            accessor:
+                getter: getOpis
+                setter: setOpis
+            xml_attribute: true
+            type: string
+        pna:
+            expose: true
+            access_type: public_method
+            serialized_name: pna
+            accessor:
+                getter: getPna
+                setter: setPna
+            xml_attribute: true
+            type: string
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPocztowy
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            xml_list:
+                inline: true
+                entry_name: kodPocztowy
+            type: array<string>

@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetZapowiedziFakturOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getZapowiedziFakturResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetZapowiedziFakturResponse
+                setter: setGetZapowiedziFakturResponse
+            serialized_name: getZapowiedziFakturResponse
+            type: TomaszKusy\En\GetZapowiedziFakturResponse

@@ -1,0 +1,18 @@
+TomaszKusy\En\GetOutboxBook\GetOutboxBookAType:
+    properties:
+        idEnvelope:
+            expose: true
+            access_type: public_method
+            serialized_name: idEnvelope
+            accessor:
+                getter: getIdEnvelope
+                setter: setIdEnvelope
+            type: int
+        includeNierejestrowane:
+            expose: true
+            access_type: public_method
+            serialized_name: includeNierejestrowane
+            accessor:
+                getter: getIncludeNierejestrowane
+                setter: setIncludeNierejestrowane
+            type: bool

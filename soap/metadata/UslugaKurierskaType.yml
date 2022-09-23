@@ -1,0 +1,202 @@
+TomaszKusy\En\UslugaKurierskaType:
+    properties:
+        zasadySpecjalne:
+            expose: true
+            access_type: public_method
+            serialized_name: zasadySpecjalne
+            accessor:
+                getter: getZasadySpecjalne
+                setter: setZasadySpecjalne
+            xml_attribute: true
+            type: string
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        ponadgabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: ponadgabaryt
+            accessor:
+                getter: getPonadgabaryt
+                setter: setPonadgabaryt
+            xml_attribute: true
+            type: bool
+        odleglosc:
+            expose: true
+            access_type: public_method
+            serialized_name: odleglosc
+            accessor:
+                getter: getOdleglosc
+                setter: setOdleglosc
+            xml_attribute: true
+            type: int
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            xml_attribute: true
+            type: string
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            xml_attribute: true
+            type: bool
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        uiszczaOplate:
+            expose: true
+            access_type: public_method
+            serialized_name: uiszczaOplate
+            accessor:
+                getter: getUiszczaOplate
+                setter: setUiszczaOplate
+            xml_attribute: true
+            type: string
+        termin:
+            expose: true
+            access_type: public_method
+            serialized_name: termin
+            accessor:
+                getter: getTermin
+                setter: setTermin
+            xml_attribute: true
+            type: string
+        opakowanie:
+            expose: true
+            access_type: public_method
+            serialized_name: opakowanie
+            accessor:
+                getter: getOpakowanie
+                setter: setOpakowanie
+            xml_attribute: true
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            xml_attribute: true
+            type: string
+        numerTransakcjiOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: numerTransakcjiOdbioru
+            accessor:
+                getter: getNumerTransakcjiOdbioru
+                setter: setNumerTransakcjiOdbioru
+            xml_attribute: true
+            type: string
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        odbiorPrzesylkiOdNadawcy:
+            expose: true
+            access_type: public_method
+            serialized_name: odbiorPrzesylkiOdNadawcy
+            accessor:
+                getter: getOdbiorPrzesylkiOdNadawcy
+                setter: setOdbiorPrzesylkiOdNadawcy
+            type: TomaszKusy\En\OdbiorPrzesylkiOdNadawcyType
+        potwierdzenieDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieDoreczenia
+            accessor:
+                getter: getPotwierdzenieDoreczenia
+                setter: setPotwierdzenieDoreczenia
+            type: TomaszKusy\En\PotwierdzenieDoreczeniaType
+        urzadWydaniaEPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadWydaniaEPrzesylki
+            accessor:
+                getter: getUrzadWydaniaEPrzesylki
+                setter: setUrzadWydaniaEPrzesylki
+            type: TomaszKusy\En\UrzadWydaniaEPrzesylkiType
+        subPrzesylka:
+            expose: true
+            access_type: public_method
+            serialized_name: subPrzesylka
+            accessor:
+                getter: getSubPrzesylka
+                setter: setSubPrzesylka
+            xml_list:
+                inline: true
+                entry_name: subPrzesylka
+            type: array<TomaszKusy\En\SubUslugaKurierskaType>
+        potwierdzenieOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieOdbioru
+            accessor:
+                getter: getPotwierdzenieOdbioru
+                setter: setPotwierdzenieOdbioru
+            type: TomaszKusy\En\PotwierdzenieOdbioruKurierskaType
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        zwrotDokumentow:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDokumentow
+            accessor:
+                getter: getZwrotDokumentow
+                setter: setZwrotDokumentow
+            type: TomaszKusy\En\ZwrotDokumentowKurierskaType
+        doreczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenie
+            accessor:
+                getter: getDoreczenie
+                setter: setDoreczenie
+            type: TomaszKusy\En\DoreczenieUslugaKurierskaType
+        epo:
+            expose: true
+            access_type: public_method
+            serialized_name: epo
+            accessor:
+                getter: getEpo
+                setter: setEpo
+            type: TomaszKusy\En\EPOType

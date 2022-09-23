@@ -1,0 +1,38 @@
+TomaszKusy\En\RelatedToAllegroType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        sellerId:
+            expose: true
+            access_type: public_method
+            serialized_name: sellerId
+            accessor:
+                getter: getSellerId
+                setter: setSellerId
+            xml_attribute: true
+            type: string
+        channel:
+            expose: true
+            access_type: public_method
+            serialized_name: channel
+            accessor:
+                getter: getChannel
+                setter: setChannel
+            xml_attribute: true
+            type: string
+        deliveryMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryMethod
+            accessor:
+                getter: getDeliveryMethod
+                setter: setDeliveryMethod
+            xml_attribute: true
+            type: string

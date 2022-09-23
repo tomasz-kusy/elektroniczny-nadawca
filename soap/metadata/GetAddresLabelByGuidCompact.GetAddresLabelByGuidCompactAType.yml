@@ -1,0 +1,21 @@
+TomaszKusy\En\GetAddresLabelByGuidCompact\GetAddresLabelByGuidCompactAType:
+    properties:
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_list:
+                inline: true
+                entry_name: guid
+            type: array<string>
+        idBufor:
+            expose: true
+            access_type: public_method
+            serialized_name: idBufor
+            accessor:
+                getter: getIdBufor
+                setter: setIdBufor
+            type: int

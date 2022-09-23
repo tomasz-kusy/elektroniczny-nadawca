@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEnvelopeContentFullInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEnvelopeContentFull:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEnvelopeContentFull
+                setter: setGetEnvelopeContentFull
+            serialized_name: getEnvelopeContentFull
+            type: TomaszKusy\En\GetEnvelopeContentFull

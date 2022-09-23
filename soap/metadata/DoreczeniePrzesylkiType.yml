@@ -1,0 +1,65 @@
+TomaszKusy\En\DoreczeniePrzesylkiType:
+    properties:
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            accessor:
+                getter: getData
+                setter: setData
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        osobaOdbierajaca:
+            expose: true
+            access_type: public_method
+            serialized_name: osobaOdbierajaca
+            accessor:
+                getter: getOsobaOdbierajaca
+                setter: setOsobaOdbierajaca
+            xml_attribute: true
+            type: string
+        podmiotDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: podmiotDoreczenia
+            accessor:
+                getter: getPodmiotDoreczenia
+                setter: setPodmiotDoreczenia
+            xml_attribute: true
+            type: string
+        dataPelnomocnictwa:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPelnomocnictwa
+            accessor:
+                getter: getDataPelnomocnictwa
+                setter: setDataPelnomocnictwa
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        numerPelnomocnictwa:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPelnomocnictwa
+            accessor:
+                getter: getNumerPelnomocnictwa
+                setter: setNumerPelnomocnictwa
+            xml_attribute: true
+            type: string
+        pieczecFirmowa:
+            expose: true
+            access_type: public_method
+            serialized_name: pieczecFirmowa
+            accessor:
+                getter: getPieczecFirmowa
+                setter: setPieczecFirmowa
+            xml_attribute: true
+            type: bool
+        miejscePozostawieniaZawiadomieniaODoreczeniu:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscePozostawieniaZawiadomieniaODoreczeniu
+            accessor:
+                getter: getMiejscePozostawieniaZawiadomieniaODoreczeniu
+                setter: setMiejscePozostawieniaZawiadomieniaODoreczeniu
+            xml_attribute: true
+            type: string

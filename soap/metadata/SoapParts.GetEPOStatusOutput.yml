@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEPOStatusOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEPOStatusResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEPOStatusResponse
+                setter: setGetEPOStatusResponse
+            serialized_name: getEPOStatusResponse
+            type: TomaszKusy\En\GetEPOStatusResponse

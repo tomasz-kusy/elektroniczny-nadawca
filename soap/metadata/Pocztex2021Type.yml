@@ -1,0 +1,162 @@
+TomaszKusy\En\Pocztex2021Type:
+    properties:
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType
+        potwierdzenieDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieDoreczenia
+            accessor:
+                getter: getPotwierdzenieDoreczenia
+                setter: setPotwierdzenieDoreczenia
+            type: TomaszKusy\En\PotwierdzenieEDoreczeniaType
+        potwierdzenieOdbioru:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieOdbioru
+            accessor:
+                getter: getPotwierdzenieOdbioru
+                setter: setPotwierdzenieOdbioru
+            type: TomaszKusy\En\PotwierdzenieOdbioruPocztex2021Type
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            type: int
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            type: int
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            type: bool
+        ponadgabaryt:
+            expose: true
+            access_type: public_method
+            serialized_name: ponadgabaryt
+            accessor:
+                getter: getPonadgabaryt
+                setter: setPonadgabaryt
+            type: bool
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            type: string
+        zwrotDokumentow:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotDokumentow
+            accessor:
+                getter: getZwrotDokumentow
+                setter: setZwrotDokumentow
+            type: string
+        idDokumentyZwrotneAdresy:
+            expose: true
+            access_type: public_method
+            serialized_name: idDokumentyZwrotneAdresy
+            accessor:
+                getter: getIdDokumentyZwrotneAdresy
+                setter: setIdDokumentyZwrotneAdresy
+            type: int
+        epo:
+            expose: true
+            access_type: public_method
+            serialized_name: epo
+            accessor:
+                getter: getEpo
+                setter: setEpo
+            type: TomaszKusy\En\EPOType
+        adresDlaZwrotu:
+            expose: true
+            access_type: public_method
+            serialized_name: adresDlaZwrotu
+            accessor:
+                getter: getAdresDlaZwrotu
+                setter: setAdresDlaZwrotu
+            type: TomaszKusy\En\AdresType
+        odbiorWSobote:
+            expose: true
+            access_type: public_method
+            serialized_name: odbiorWSobote
+            accessor:
+                getter: getOdbiorWSobote
+                setter: setOdbiorWSobote
+            type: bool
+        zasadySpecjalne:
+            expose: true
+            access_type: public_method
+            serialized_name: zasadySpecjalne
+            accessor:
+                getter: getZasadySpecjalne
+                setter: setZasadySpecjalne
+            type: string
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            type: TomaszKusy\En\ZawartoscPocztex2021Type
+        sprawdzenieZawartosciPrzesylkiPrzezOdbiorce:
+            expose: true
+            access_type: public_method
+            serialized_name: sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            accessor:
+                getter: getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+                setter: setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+            type: bool
+        uiszczaOplate:
+            expose: true
+            access_type: public_method
+            serialized_name: uiszczaOplate
+            accessor:
+                getter: getUiszczaOplate
+                setter: setUiszczaOplate
+            type: string
+        doreczenieDoRakWlasnych:
+            expose: true
+            access_type: public_method
+            serialized_name: doreczenieDoRakWlasnych
+            accessor:
+                getter: getDoreczenieDoRakWlasnych
+                setter: setDoreczenieDoRakWlasnych
+            type: bool

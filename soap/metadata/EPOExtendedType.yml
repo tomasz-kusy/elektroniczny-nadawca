@@ -1,0 +1,11 @@
+TomaszKusy\En\EPOExtendedType:
+    properties:
+        zasadySpecjalne:
+            expose: true
+            access_type: public_method
+            serialized_name: zasadySpecjalne
+            accessor:
+                getter: getZasadySpecjalne
+                setter: setZasadySpecjalne
+            xml_attribute: true
+            type: string

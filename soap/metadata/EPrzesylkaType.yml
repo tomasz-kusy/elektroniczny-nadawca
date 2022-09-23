@@ -1,0 +1,81 @@
+TomaszKusy\En\EPrzesylkaType:
+    properties:
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        eSposobPowiadomieniaAdresata:
+            expose: true
+            access_type: public_method
+            serialized_name: eSposobPowiadomieniaAdresata
+            accessor:
+                getter: getESposobPowiadomieniaAdresata
+                setter: setESposobPowiadomieniaAdresata
+            xml_attribute: true
+            type: string
+        eSposobPowiadomieniaNadawcy:
+            expose: true
+            access_type: public_method
+            serialized_name: eSposobPowiadomieniaNadawcy
+            accessor:
+                getter: getESposobPowiadomieniaNadawcy
+                setter: setESposobPowiadomieniaNadawcy
+            xml_attribute: true
+            type: string
+        eKontaktAdresata:
+            expose: true
+            access_type: public_method
+            serialized_name: eKontaktAdresata
+            accessor:
+                getter: getEKontaktAdresata
+                setter: setEKontaktAdresata
+            xml_attribute: true
+            type: string
+        eKontaktNadawcy:
+            expose: true
+            access_type: public_method
+            serialized_name: eKontaktNadawcy
+            accessor:
+                getter: getEKontaktNadawcy
+                setter: setEKontaktNadawcy
+            xml_attribute: true
+            type: string
+        ostroznie:
+            expose: true
+            access_type: public_method
+            serialized_name: ostroznie
+            accessor:
+                getter: getOstroznie
+                setter: setOstroznie
+            xml_attribute: true
+            type: bool
+        wartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: wartosc
+            accessor:
+                getter: getWartosc
+                setter: setWartosc
+            xml_attribute: true
+            type: int
+        urzadWydaniaEPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: urzadWydaniaEPrzesylki
+            accessor:
+                getter: getUrzadWydaniaEPrzesylki
+                setter: setUrzadWydaniaEPrzesylki
+            type: TomaszKusy\En\UrzadWydaniaEPrzesylkiType
+        pobranie:
+            expose: true
+            access_type: public_method
+            serialized_name: pobranie
+            accessor:
+                getter: getPobranie
+                setter: setPobranie
+            type: TomaszKusy\En\PobranieType

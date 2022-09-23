@@ -1,0 +1,18 @@
+TomaszKusy\En\ZwrotDokumentowKurierskaType:
+    properties:
+        rodzajPocztex:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzajPocztex
+            accessor:
+                getter: getRodzajPocztex
+                setter: setRodzajPocztex
+            type: string
+        rodzajList:
+            expose: true
+            access_type: public_method
+            serialized_name: rodzajList
+            accessor:
+                getter: getRodzajList
+                setter: setRodzajList
+            type: TomaszKusy\En\RodzajListType

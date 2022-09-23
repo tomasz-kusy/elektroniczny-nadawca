@@ -1,0 +1,58 @@
+TomaszKusy\En\StatusZgodyEZwrotType:
+    properties:
+        guidZgodaEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: guidZgodaEZwrot
+            accessor:
+                getter: getGuidZgodaEZwrot
+                setter: setGuidZgodaEZwrot
+            xml_attribute: true
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string
+        platnoscZaPrzesylke:
+            expose: true
+            access_type: public_method
+            serialized_name: platnoscZaPrzesylke
+            accessor:
+                getter: getPlatnoscZaPrzesylke
+                setter: setPlatnoscZaPrzesylke
+            xml_attribute: true
+            type: bool
+        kosztKontrahenta:
+            expose: true
+            access_type: public_method
+            serialized_name: kosztKontrahenta
+            accessor:
+                getter: getKosztKontrahenta
+                setter: setKosztKontrahenta
+            xml_attribute: true
+            type: int
+        dataWygasnieciaZgody:
+            expose: true
+            access_type: public_method
+            serialized_name: dataWygasnieciaZgody
+            accessor:
+                getter: getDataWygasnieciaZgody
+                setter: setDataWygasnieciaZgody
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        eZwrotPrzesylki:
+            expose: true
+            access_type: public_method
+            serialized_name: eZwrotPrzesylki
+            accessor:
+                getter: getEZwrotPrzesylki
+                setter: setEZwrotPrzesylki
+            xml_list:
+                inline: true
+                entry_name: eZwrotPrzesylki
+            type: array<string>

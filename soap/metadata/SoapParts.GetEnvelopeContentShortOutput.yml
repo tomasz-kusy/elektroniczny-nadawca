@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetEnvelopeContentShortOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getEnvelopeContentShortResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetEnvelopeContentShortResponse
+                setter: setGetEnvelopeContentShortResponse
+            serialized_name: getEnvelopeContentShortResponse
+            type: TomaszKusy\En\GetEnvelopeContentShortResponse

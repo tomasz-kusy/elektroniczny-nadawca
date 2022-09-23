@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\GetAccountListOutput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        getAccountListResponse:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getGetAccountListResponse
+                setter: setGetAccountListResponse
+            serialized_name: getAccountListResponse
+            type: TomaszKusy\En\GetAccountListResponse

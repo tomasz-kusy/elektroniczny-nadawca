@@ -1,0 +1,26 @@
+TomaszKusy\En\TrasaRequestType:
+    properties:
+        fromUrzadNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: fromUrzadNadania
+            accessor:
+                getter: getFromUrzadNadania
+                setter: setFromUrzadNadania
+            type: int
+        toKodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: toKodPocztowy
+            accessor:
+                getter: getToKodPocztowy
+                setter: setToKodPocztowy
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            type: string

@@ -1,0 +1,13 @@
+TomaszKusy\En\GetKarty\GetKartyAType:
+    properties:
+        idKarta:
+            expose: true
+            access_type: public_method
+            serialized_name: idKarta
+            accessor:
+                getter: getIdKarta
+                setter: setIdKarta
+            xml_list:
+                inline: true
+                entry_name: idKarta
+            type: array<int>

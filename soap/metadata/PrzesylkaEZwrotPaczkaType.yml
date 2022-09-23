@@ -1,0 +1,19 @@
+TomaszKusy\En\PrzesylkaEZwrotPaczkaType:
+    properties:
+        numerNadaniaZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: numerNadaniaZwrot
+            accessor:
+                getter: getNumerNadaniaZwrot
+                setter: setNumerNadaniaZwrot
+            xml_attribute: true
+            type: string
+        idSklepEZwrot:
+            expose: true
+            access_type: public_method
+            serialized_name: idSklepEZwrot
+            accessor:
+                getter: getIdSklepEZwrot
+                setter: setIdSklepEZwrot
+            type: int

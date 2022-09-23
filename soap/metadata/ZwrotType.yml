@@ -1,0 +1,29 @@
+TomaszKusy\En\ZwrotType:
+    properties:
+        zwrotPoLiczbieDni:
+            expose: true
+            access_type: public_method
+            serialized_name: zwrotPoLiczbieDni
+            accessor:
+                getter: getZwrotPoLiczbieDni
+                setter: setZwrotPoLiczbieDni
+            xml_attribute: true
+            type: int
+        traktowacJakPorzucona:
+            expose: true
+            access_type: public_method
+            serialized_name: traktowacJakPorzucona
+            accessor:
+                getter: getTraktowacJakPorzucona
+                setter: setTraktowacJakPorzucona
+            xml_attribute: true
+            type: bool
+        sposobZwrotu:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobZwrotu
+            accessor:
+                getter: getSposobZwrotu
+                setter: setSposobZwrotu
+            xml_attribute: true
+            type: string

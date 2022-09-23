@@ -1,0 +1,119 @@
+TomaszKusy\En\AdresType:
+    properties:
+        nazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa
+            accessor:
+                getter: getNazwa
+                setter: setNazwa
+            xml_attribute: true
+            type: string
+        nazwa2:
+            expose: true
+            access_type: public_method
+            serialized_name: nazwa2
+            accessor:
+                getter: getNazwa2
+                setter: setNazwa2
+            xml_attribute: true
+            type: string
+        ulica:
+            expose: true
+            access_type: public_method
+            serialized_name: ulica
+            accessor:
+                getter: getUlica
+                setter: setUlica
+            xml_attribute: true
+            type: string
+        numerDomu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerDomu
+            accessor:
+                getter: getNumerDomu
+                setter: setNumerDomu
+            xml_attribute: true
+            type: string
+        numerLokalu:
+            expose: true
+            access_type: public_method
+            serialized_name: numerLokalu
+            accessor:
+                getter: getNumerLokalu
+                setter: setNumerLokalu
+            xml_attribute: true
+            type: string
+        miejscowosc:
+            expose: true
+            access_type: public_method
+            serialized_name: miejscowosc
+            accessor:
+                getter: getMiejscowosc
+                setter: setMiejscowosc
+            xml_attribute: true
+            type: string
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodPocztowy
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            xml_attribute: true
+            type: string
+        kraj:
+            expose: true
+            access_type: public_method
+            serialized_name: kraj
+            accessor:
+                getter: getKraj
+                setter: setKraj
+            xml_attribute: true
+            type: string
+        telefon:
+            expose: true
+            access_type: public_method
+            serialized_name: telefon
+            accessor:
+                getter: getTelefon
+                setter: setTelefon
+            xml_attribute: true
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_attribute: true
+            type: string
+        mobile:
+            expose: true
+            access_type: public_method
+            serialized_name: mobile
+            accessor:
+                getter: getMobile
+                setter: setMobile
+            xml_attribute: true
+            type: string
+        osobaKontaktowa:
+            expose: true
+            access_type: public_method
+            serialized_name: osobaKontaktowa
+            accessor:
+                getter: getOsobaKontaktowa
+                setter: setOsobaKontaktowa
+            xml_attribute: true
+            type: string
+        nip:
+            expose: true
+            access_type: public_method
+            serialized_name: nip
+            accessor:
+                getter: getNip
+                setter: setNip
+            xml_attribute: true
+            type: string

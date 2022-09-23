@@ -1,0 +1,10 @@
+TomaszKusy\En\GetListaZgodEZwrotow\GetListaZgodEZwrotowAType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string

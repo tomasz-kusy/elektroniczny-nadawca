@@ -1,0 +1,18 @@
+TomaszKusy\En\PrintResultType:
+    properties:
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            type: string
+        print:
+            expose: true
+            access_type: public_method
+            serialized_name: print
+            accessor:
+                getter: getPrint
+                setter: setPrint
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

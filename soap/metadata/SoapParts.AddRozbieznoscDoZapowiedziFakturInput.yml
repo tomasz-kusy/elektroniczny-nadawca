@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\AddRozbieznoscDoZapowiedziFakturInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        addRozbieznoscDoZapowiedziFaktur:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getAddRozbieznoscDoZapowiedziFaktur
+                setter: setAddRozbieznoscDoZapowiedziFaktur
+            serialized_name: addRozbieznoscDoZapowiedziFaktur
+            type: TomaszKusy\En\AddRozbieznoscDoZapowiedziFaktur

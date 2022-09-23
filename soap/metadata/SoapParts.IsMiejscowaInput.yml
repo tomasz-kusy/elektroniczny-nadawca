@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\IsMiejscowaInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        isMiejscowa:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getIsMiejscowa
+                setter: setIsMiejscowa
+            serialized_name: isMiejscowa
+            type: TomaszKusy\En\IsMiejscowa

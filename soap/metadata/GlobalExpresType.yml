@@ -1,0 +1,79 @@
+TomaszKusy\En\GlobalExpresType:
+    properties:
+        masa:
+            expose: true
+            access_type: public_method
+            serialized_name: masa
+            accessor:
+                getter: getMasa
+                setter: setMasa
+            xml_attribute: true
+            type: int
+        posteRestante:
+            expose: true
+            access_type: public_method
+            serialized_name: posteRestante
+            accessor:
+                getter: getPosteRestante
+                setter: setPosteRestante
+            xml_attribute: true
+            type: bool
+        zawartosc:
+            expose: true
+            access_type: public_method
+            serialized_name: zawartosc
+            accessor:
+                getter: getZawartosc
+                setter: setZawartosc
+            xml_attribute: true
+            type: string
+        kategoria:
+            expose: true
+            access_type: public_method
+            serialized_name: kategoria
+            accessor:
+                getter: getKategoria
+                setter: setKategoria
+            xml_attribute: true
+            type: string
+        numerPrzesylkiKlienta:
+            expose: true
+            access_type: public_method
+            serialized_name: numerPrzesylkiKlienta
+            accessor:
+                getter: getNumerPrzesylkiKlienta
+                setter: setNumerPrzesylkiKlienta
+            xml_attribute: true
+            type: string
+        ubezpieczenie:
+            expose: true
+            access_type: public_method
+            serialized_name: ubezpieczenie
+            accessor:
+                getter: getUbezpieczenie
+                setter: setUbezpieczenie
+            type: TomaszKusy\En\UbezpieczenieType
+        potwierdzenieDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: potwierdzenieDoreczenia
+            accessor:
+                getter: getPotwierdzenieDoreczenia
+                setter: setPotwierdzenieDoreczenia
+            type: TomaszKusy\En\PotwierdzenieDoreczeniaType
+        deklaracjaCelna2:
+            expose: true
+            access_type: public_method
+            serialized_name: deklaracjaCelna2
+            accessor:
+                getter: getDeklaracjaCelna2
+                setter: setDeklaracjaCelna2
+            type: TomaszKusy\En\DeklaracjaCelna2Type
+        sposobDoreczenia:
+            expose: true
+            access_type: public_method
+            serialized_name: sposobDoreczenia
+            accessor:
+                getter: getSposobDoreczenia
+                setter: setSposobDoreczenia
+            type: TomaszKusy\En\SposobDoreczeniaType

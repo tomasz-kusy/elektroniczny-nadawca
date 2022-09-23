@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\ZamowKurieraInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        zamowKuriera:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getZamowKuriera
+                setter: setZamowKuriera
+            serialized_name: zamowKuriera
+            type: TomaszKusy\En\ZamowKuriera

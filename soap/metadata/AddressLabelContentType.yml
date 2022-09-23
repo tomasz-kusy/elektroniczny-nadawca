@@ -1,0 +1,28 @@
+TomaszKusy\En\AddressLabelContentType:
+    properties:
+        nrNadania:
+            expose: true
+            access_type: public_method
+            serialized_name: nrNadania
+            accessor:
+                getter: getNrNadania
+                setter: setNrNadania
+            xml_attribute: true
+            type: string
+        guid:
+            expose: true
+            access_type: public_method
+            serialized_name: guid
+            accessor:
+                getter: getGuid
+                setter: setGuid
+            xml_attribute: true
+            type: string
+        pdfContent:
+            expose: true
+            access_type: public_method
+            serialized_name: pdfContent
+            accessor:
+                getter: getPdfContent
+                setter: setPdfContent
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

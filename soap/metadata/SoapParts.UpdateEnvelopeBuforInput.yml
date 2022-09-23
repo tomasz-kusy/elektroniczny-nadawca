@@ -1,0 +1,13 @@
+TomaszKusy\En\SoapParts\UpdateEnvelopeBuforInput:
+    xml_root_namespace: 'http://e-nadawca.poczta-polska.pl'
+    properties:
+        updateEnvelopeBufor:
+            expose: true
+            access_type: public_method
+            xml_element:
+                namespace: 'http://e-nadawca.poczta-polska.pl'
+            accessor:
+                getter: getUpdateEnvelopeBufor
+                setter: setUpdateEnvelopeBufor
+            serialized_name: updateEnvelopeBufor
+            type: TomaszKusy\En\UpdateEnvelopeBufor

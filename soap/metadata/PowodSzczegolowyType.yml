@@ -1,0 +1,20 @@
+TomaszKusy\En\PowodSzczegolowyType:
+    properties:
+        idPowodSzczegolowy:
+            expose: true
+            access_type: public_method
+            serialized_name: idPowodSzczegolowy
+            accessor:
+                getter: getIdPowodSzczegolowy
+                setter: setIdPowodSzczegolowy
+            xml_attribute: true
+            type: int
+        powodSzczegolowyOpis:
+            expose: true
+            access_type: public_method
+            serialized_name: powodSzczegolowyOpis
+            accessor:
+                getter: getPowodSzczegolowyOpis
+                setter: setPowodSzczegolowyOpis
+            xml_attribute: true
+            type: string
