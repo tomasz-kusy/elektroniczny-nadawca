@@ -1,0 +1,16 @@
+# config.yml
+
+soap_client:
+  alternative_endpoints:
+    ElektronicznyNadawca:
+      ENSoap: 'env(ENDPOINT_ENSOAP)'
+
+  namespaces:
+    'http://e-nadawca.poczta-polska.pl': 'TomaszKusy\En'
+  destinations_php:
+    'TomaszKusy\En': soap/src
+  destinations_jms:
+    'TomaszKusy\En': soap/metadata
+
+  metadata:
+    'assets/en.wsdl': ~
