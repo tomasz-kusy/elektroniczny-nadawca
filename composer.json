@@ -13,5 +13,11 @@
             "type": "github",
             "url": "https://github.com/tomasz-kusy/elektroniczny-nadawca"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "TomaszKusy\\En\\EnContainer\\": "src/",
+            "TomaszKusy\\En\\": "soap/src/"
+        }
+    }
 }
